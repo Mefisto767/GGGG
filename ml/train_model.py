@@ -1,3 +1,5 @@
+# ml/train_model.py
+
 import os
 import pandas as pd
 import numpy as np
@@ -23,6 +25,16 @@ def safe_eval(val):
 def load_and_prepare_data(path):
     df = pd.read_csv(path)
     print(f"🔍 Все строки: {len(df)}")
+
+    # Поправка на actual_winner
+    if "actual_winner" not in df.columns:
+        if "actual_winner_y" in df.columns:
+            df["actual_winner"] = df["actual_winner_y"]
+        elif "actual_winner_x" in df.columns:
+            df["actual_winner"] = df["actual_winner_x"]
+        else:
+            print("❌ Не найдено поле actual_winner.")
+            return None, None, None, None, df, None, None
 
     team_a_col, team_b_col = "team_a", "team_b"
     heroes_a_col, heroes_b_col = "team_a_heroes", "team_b_heroes"

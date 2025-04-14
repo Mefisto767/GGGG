@@ -1,141 +1,47 @@
-timestamp,match_id,team_a,team_b,predicted_winner,confidence,value_flag,actual_winner_x,team_a_heroes,team_b_heroes,actual_winner_y,actual_winner
-2025-04-13 02:09:02,8252515077.0,Tundra Esports,Team Spirit,Team Spirit,0.69,0.0,Team Spirit,,,Dire,Team Spirit
-2025-04-13 00:53:01,8252443115.0,Team Spirit,Tundra Esports,Team Spirit,0.4464999999999999,0.0,Team Spirit,,,Radiant,Team Spirit
-2025-04-12 23:14:18,8252343416.0,Air Defence,Romashku,Air Defence,0.4303333333333333,0.0,Romashku,,,Dire,Romashku
-2025-04-12 23:34:48,8252320232.0,Team Spirit,Tundra Esports,Team Spirit,0.4464999999999999,0.0,Tundra Esports,,,Dire,Tundra Esports
-2025-04-12 22:24:27,8252279004.0,Team Poteryshka,Ni.VI,Ni.VI,0.68,0.0,Ni.VI,"[37, 49, 74, 107, 111]","[22, 42, 64, 90, 104]",Ni.VI,
-2025-04-12 22:09:21,8252260988.0,Romashku,Air Defence,Air Defence,0.4823333333333334,0.0,Romashku,,,Radiant,Romashku
-2025-04-12 21:06:00,8252155975.0,BetBoom Team,Team Falcons,BetBoom Team,0.83,1.0,BetBoom Team,,,Radiant,BetBoom Team
-2025-04-12 20:50:12,8252150488.0,Air Defence,Romashku,Air Defence,0.4303333333333333,0.0,Air Defence,,,Radiant,Air Defence
-2025-04-12 19:57:03,8252074075.0,Shinigami Gaming,Prodigy of God,Shinigami Gaming,0.7,0.0,Shinigami Gaming,,,,
-2025-04-12 19:13:24,8252008025.0,Prodigy of God,Shinigami Gaming,Prodigy of God,0.63,0.0,Prodigy of God,"[38, 68, 74, 109, 138]","[2, 39, 44, 60, 131]",Prodigy of God,
-2025-04-12 19:12:57,8252006042.0,5DOGS,KRBKA team ,5DOGS,0.71,1.0,5DOGS,,,,
-2025-04-12 19:05:02,8251993176.0,Ni.VI,Arrancars,Ni.VI,0.52,0.0,Ni.VI,"[14, 55, 84, 90, 91]","[10, 17, 31, 64, 98]",Ni.VI,
-2025-04-12 19:10:37,8251988181.0,Zero Tenacity,Team Lynx,Zero Tenacity,0.4515,0.0,Zero Tenacity,,,,
-2025-04-12 18:23:52,8251927775.0,SevenGaming-A,躺赢狗战队,躺赢狗战队,0.67,0.0,躺赢狗战队,,,,
-2025-04-12 18:21:18,8251909495.0,L1GA TEAM,Xtreme Gaming,Xtreme Gaming,0.58,0.0,Xtreme Gaming,,,Dire,Xtreme Gaming
-2025-04-12 18:08:53,8251903286.0,Mine GG Soo BiGggggg！,帅的惊动D,Mine GG Soo BiGggggg！,0.7,0.0,Mine GG Soo BiGggggg！,"[6, 26, 68, 96, 107]","[29, 30, 46, 71, 102]",Mine GG Soo BiGggggg！,
-2025-04-12 17:53:57,8251879029.0,SevenGaming-A,Dire,SevenGaming-A,0.54,0.0,SevenGaming-A,,,,
-2025-04-12 17:46:51,8251867592.0,Radiant,Dire,Dire,0.57,0.0,Dire,,,,
-2025-04-12 17:20:39,8251825913.0,龙律队,还不走,龙律队,0.65,0.0,龙律队,"[32, 69, 87, 93, 138]","[31, 46, 70, 121, 129]",龙律队,
-2025-04-12 17:29:09,8251823901.0,Xtreme Gaming,L1GA TEAM,Xtreme Gaming,0.7383333333333333,1.0,Xtreme Gaming,,,Radiant,Xtreme Gaming
-2025-04-12 17:02:11,8251797616.0,one two three,WolfSmash.Gaming,WolfSmash.Gaming,0.55,0.0,WolfSmash.Gaming,"[41, 52, 85, 87, 129]","[48, 51, 55, 64, 106]",WolfSmash.Gaming,
-2025-04-12 17:01:55,8251795377.0,Zero Tenacity,Team Lynx,Zero Tenacity,0.4515,0.0,Team Lynx,"[13, 19, 33, 64, 100]","[10, 21, 23, 29, 68]",Team Lynx,
-2025-04-12 16:53:30,8251781597.0,躺赢狗战队,SevenGaming-A,躺赢狗战队,0.69,0.0,躺赢狗战队,"[19, 22, 51, 54, 98]","[31, 42, 43, 108, 131]",躺赢狗战队,
-2025-04-12 16:46:12,8251772905.0,Ghost Sheep,Nethercore,Ghost Sheep,0.68,0.0,Ghost Sheep,"[11, 20, 22, 30, 60]","[21, 35, 42, 68, 135]",Ghost Sheep,
-2025-04-12 16:14:22,8251724562.0,还不走,龙律队,龙律队,0.7,0.0,龙律队,,,,
-2025-04-12 16:04:56,8251716749.0,WolfSmash.Gaming,one two three,WolfSmash.Gaming,0.58,0.0,WolfSmash.Gaming,,,,
-2025-04-12 15:54:51,8251703648.0,Nethercore,Ghost Sheep,Nethercore,0.79,1.0,Nethercore,,,,
-2025-04-12 16:04:35,8251686994.0,1w Team,Virtus.pro,Virtus.pro,0.4740000000000001,0.0,Virtus.pro,,,Dire,Virtus.pro
-2025-04-12 15:44:14,8251679917.0,Team Lynx,Bikini Bottom,Team Lynx,0.4715714285714286,0.0,Team Lynx,,,,
-2025-04-12 14:28:10,8251597258.0,Virtus.pro,1w Team,Virtus.pro,0.65,0.0,Virtus.pro,,,Radiant,Virtus.pro
-2025-04-12 13:53:14,8251562061.0,Air Defence,Nethercore,Nethercore,0.48,0.0,Nethercore,,,Dire,Nethercore
-2025-04-12 13:34:08,8251540421.0,Shadow Avengers,Wiser Warriors,Shadow Avengers,0.6,0.0,Shadow Avengers,,,Radiant,Shadow Avengers
-2025-04-12 13:00:27,8251503792.0,Team Lynx,Bikini Bottom,Team Lynx,0.4715714285714286,0.0,Bikini Bottom,,,,
-2025-04-12 13:00:20,8251494401.0,1w Team,Virtus.pro,Virtus.pro,0.4740000000000001,0.0,1w Team,,,Radiant,1w Team
-2025-04-12 12:39:39,8251478138.0,Wiser Warriors,Shadow Avengers,Shadow Avengers,0.62,0.0,Shadow Avengers,,,Dire,Shadow Avengers
-2025-04-12 12:34:59,8251476597.0,Nethercore,Air Defence,Nethercore,0.71,1.0,Nethercore,,,Radiant,Nethercore
-2025-04-12 11:50:10,8251431694.0,LSG,Bright Crusaders,LSG,0.67,0.0,LSG,,,Radiant,LSG
-2025-04-12 11:38:16,8251416641.0,Ivory,Yangon Galacticos,Ivory,0.71,1.0,Ivory,,,,
-2025-04-12 11:26:01,8251406028.0,Eye Gaming,Shinigami Gaming,Shinigami Gaming,0.77,1.0,Shinigami Gaming,,,,
-2025-04-12 11:09:44,8251390578.0,Bright Crusaders,LSG,LSG,0.66,0.0,LSG,,,Dire,LSG
-2025-04-12 10:21:19,8251348664.0,Foxy gaming,Mad Monkeys,Foxy gaming,0.8,1.0,Foxy gaming,,,Radiant,Foxy gaming
-2025-04-12 10:16:47,8251345482.0,Shinigami Gaming,Eye Gaming,Eye Gaming,0.66,0.0,Eye Gaming,,,,
-2025-04-12 10:06:13,8251332094.0,Yangon Galacticos,Ivory,Ivory,0.4748333333333333,0.0,Yangon Galacticos,,,,
-2025-04-12 09:48:29,8251322080.0,Mad Monkeys,Foxy gaming,Foxy gaming,0.57,0.0,Foxy gaming,,,Dire,Foxy gaming
-2025-04-12 09:03:06,8251287435.0,Flawless Goblins,Dark Rebellion,Dark Rebellion,0.6,0.0,Dark Rebellion,,,,
-2025-04-12 08:23:21,8251259156.0,Dark Rebellion,Flawless Goblins,Dark Rebellion,0.74,1.0,Dark Rebellion,,,,
-2025-04-12 07:59:44,8251240991.0,Yangon Galacticos,Ivory,Ivory,0.4748333333333333,0.0,Ivory,,,,
-2025-04-12 05:39:06,8251151245.0,TOXIC TEAM,Moonwalkers,TOXIC TEAM,0.4255,0.0,TOXIC TEAM,,,,
-2025-04-12 05:29:02,8251138373.0,PARIVISION,Team Liquid,PARIVISION,0.9,1.0,PARIVISION,,,Radiant,PARIVISION
-2025-04-12 05:03:10,8251131599.0,Moonwalkers,TOXIC TEAM,TOXIC TEAM,0.71,1.0,TOXIC TEAM,,,,
-2025-04-12 04:24:37,8251112232.0,TOXIC TEAM,Moonwalkers,TOXIC TEAM,0.4255,0.0,Moonwalkers,,,,
-2025-04-12 03:35:35,8251087600.0,Wild Dragon,HELLBEAR HEROES,Wild Dragon,0.64,0.0,Wild Dragon,,,,
-2025-04-12 03:03:14,8251069363.0,Team Liquid,PARIVISION,Team Liquid,0.77,1.0,Team Liquid,,,Radiant,Team Liquid
-2025-04-12 02:49:45,8251059647.0,HELLBEAR HEROES,Wild Dragon,Wild Dragon,0.54,0.0,Wild Dragon,,,,
-2025-04-12 02:12:24,8251037744.0,Night Vision,Vitality Warriors,Vitality Warriors,0.63,0.0,Vitality Warriors,,,,
-2025-04-12 01:34:52,8251008592.0,Vitality Warriors,Night Vision,Vitality Warriors,0.56,0.0,Vitality Warriors,,,,
-2025-04-12 00:52:13,8250970976.0,REAL ECLIPSE,Silent killer,Silent killer,0.64,0.0,Silent killer,,,,
-2025-04-12 00:37:02,8250942550.0,Nigma Galaxy,BetBoom Team,BetBoom Team,0.64,0.0,BetBoom Team,,,Dire,BetBoom Team
-2025-04-12 00:03:42,8250921950.0,Chill,V for Vendeta,V for Vendeta,0.71,1.0,V for Vendeta,,,,
-2025-04-12 00:03:17,8250919496.0,Silent killer,REAL ECLIPSE,Silent killer,0.71,1.0,Silent killer,,,,
-2025-04-11 23:35:32,8250853805.0,BetBoom Team,Nigma Galaxy,BetBoom Team,0.89,1.0,BetBoom Team,,,Radiant,BetBoom Team
-2025-04-11 23:00:28,8250846860.0,V for Vendeta,Chill,V for Vendeta,0.7,0.0,V for Vendeta,,,,
-2025-04-11 21:44:31,8250751980.0,Студените,Dulo,Студените,0.7,0.0,Студените,,,,
-2025-04-11 21:17:34,8250715424.0,5DOGS,hidden pool,5DOGS,0.77,1.0,5DOGS,,,,
-2025-04-11 21:09:10,8250704591.0,Dulo,Студените,Студените,0.67,0.0,Студените,,,,
-2025-04-11 21:05:53,8250699987.0,52turbo,Ni.VI,52turbo,0.61,0.0,52turbo,,,,
-2025-04-11 21:12:04,8250691749.0,Team Liquid,AVULUS,Team Liquid,0.78,1.0,Team Liquid,,,,
-2025-04-11 20:17:57,8250635425.0,4Pirates,Zero Tenacity,4Pirates,0.59,0.0,4Pirates,,,,
-2025-04-11 19:53:03,8250598379.0,Romashku,Air Defence,Air Defence,0.4823333333333334,0.0,Air Defence,,,,
-2025-04-11 19:59:40,8250569189.0,AVULUS,Team Liquid,Team Liquid,0.65,0.0,Team Liquid,,,,
-2025-04-11 18:54:50,8250507431.0,BloodyRose,Air Defence,Air Defence,0.4426666666666666,0.0,BloodyRose,,,,
-2025-04-11 18:42:32,8250492717.0,Bright Crusaders,Swift Knights,Bright Crusaders,0.526952380952381,0.0,Bright Crusaders,,,,
-2025-04-11 18:17:48,8250451899.0,Mine GG Soo BiGggggg！,羊村,羊村,0.58,0.0,羊村,,,,
-2025-04-11 18:13:50,8250448986.0,Shinigami Gaming,Teiko,Shinigami Gaming,0.69,0.0,Shinigami Gaming,,,,
-2025-04-11 18:03:35,8250433522.0,BloodyRose,Air Defence,Air Defence,0.4426666666666666,0.0,Air Defence,,,,
-2025-04-11 18:02:55,8250431523.0,Swift Knights,Bright Crusaders,Bright Crusaders,0.64,0.0,Bright Crusaders,,,,
-2025-04-11 18:01:32,8250430364.0,HYDRA,Bikini Bottom,Bikini Bottom,0.6641666666666667,0.0,Bikini Bottom,,,,
-2025-04-11 17:22:05,8250372584.0,Bright Crusaders,Swift Knights,Bright Crusaders,0.526952380952381,0.0,Swift Knights,,,,
-2025-04-11 17:25:03,8250371840.0,Air Defence,BloodyRose,BloodyRose,0.59,0.0,BloodyRose,,,,
-2025-04-11 17:19:33,8250369764.0,Radiant,WolfSmash.Gaming,Radiant,0.66,0.0,Radiant,,,,
-2025-04-11 17:19:59,8250369524.0,TEIKO,Shinigami Gaming,Shinigami Gaming,0.73,1.0,Shinigami Gaming,,,,
-2025-04-11 17:11:06,8250358172.0,SevenGaming-T,早睡早起,SevenGaming-T,0.65,0.0,SevenGaming-T,,,,
-2025-04-11 17:06:14,8250351584.0,还不走,小鸟队,还不走,0.61,0.0,还不走,,,,
-2025-04-11 17:00:18,8250337243.0,羊村,Mine GG Soo BiGggggg！,羊村,0.62,0.0,羊村,,,,
-2025-04-11 16:55:06,8250325248.0,Xtreme Gaming,Virtus.pro,Xtreme Gaming,0.5315000000000001,0.0,Xtreme Gaming,,,,
-2025-04-11 16:40:16,8250317150.0,Mad Monkeys,Wiser Warriors,Mad Monkeys,0.57,0.0,Mad Monkeys,,,,
-2025-04-13 13:23:02,8253042214.0,Ghost Sheep,BloodyRose,Ghost Sheep,0.71,1.0,Ghost Sheep,,,,
-2025-04-13 13:10:51,8253027523.0,Dark Rebellion,Mad Monkeys,Dark Rebellion,0.68,0.0,Dark Rebellion,,,Radiant,Dark Rebellion
-2025-04-13 12:21:45,8252972710.0,Dragon Blood,Shadow Avengers,Dragon Blood,0.65,0.0,Dragon Blood,,,,
-2025-04-13 12:09:27,8252958766.0,Romashku,Nethercore,Romashku,0.7283333333333333,1.0,Romashku,,,Radiant,Romashku
-2025-04-13 11:42:54,8252930709.0,Shadow Avengers,Dragon Blood,Dragon Blood,0.72,1.0,Dragon Blood,"[9, 19, 22, 48, 98]","[15, 53, 84, 106, 109]",Dragon Blood,
-2025-04-13 11:17:10,8252904847.0,Teiko,Dominion,Teiko,0.7,0.0,Teiko,"[19, 21, 34, 71, 91]","[2, 5, 60, 93, 120]",Teiko,
-2025-04-13 10:59:37,8252887160.0,Flawless Goblins,Wiser Warriors,Wiser Warriors,0.58,0.0,Wiser Warriors,,,Dire,Wiser Warriors
-2025-04-13 10:18:51,8252849583.0,Wiser Warriors,Flawless Goblins,Wiser Warriors,0.71,1.0,Wiser Warriors,,,Radiant,Wiser Warriors
-2025-04-13 10:16:24,8252847814.0,Dominion,Teiko,Dominion,0.68,0.0,Dominion,"[2, 35, 71, 75, 136]","[34, 43, 49, 52, 135]",Dominion,
-2025-04-13 09:30:22,8252809017.0,Bright Crusaders,Foxy gaming,Bright Crusaders,0.7458333333333335,1.0,Bright Crusaders,,,Radiant,Bright Crusaders
-2025-04-13 08:47:41,8252776056.0,Foxy gaming,Bright Crusaders,Foxy gaming,0.72,1.0,Foxy gaming,,,Radiant,Foxy gaming
-2025-04-13 07:06:01,8252697513.0,PARIVISION,BetBoom Team,PARIVISION,0.87,1.0,PARIVISION,,,Radiant,PARIVISION
-2025-04-13 03:49:55,8252576577.0,BetBoom Team,PARIVISION,BetBoom Team,0.8,1.0,BetBoom Team,,,Radiant,BetBoom Team
-2025-04-13 13:02:55,8253009800.0,L1GA TEAM,Virtus.pro,Virtus.pro,0.7573333333333333,1.0,Virtus.pro,,,Dire,Virtus.pro
-,,PARIVISION,Team Spirit,PARIVISION,0.9,1.0,PARIVISION,,,,
-2025-04-13 22:07:05,8253997110.0,Vitality Warriors,HELLBEAR HEROES,HELLBEAR HEROES,0.65,0.0,HELLBEAR HEROES,"[35, 51, 54, 86, 98]","[14, 22, 48, 102, 105]",HELLBEAR HEROES,
-2025-04-13 19:56:26,8253889383.0,Meld z zaskoczenia,Frankfurt Beast Reborn,Frankfurt Beast Reborn,0.66,0.0,Frankfurt Beast Reborn,"[15, 21, 60, 84, 138]","[10, 29, 35, 43, 74]",Frankfurt Beast Reborn,
-2025-04-13 19:03:48,8253834683.0,Frankfurt Beast Reborn,Meld z zaskoczenia,Frankfurt Beast Reborn,0.58,0.0,Frankfurt Beast Reborn,"[10, 26, 63, 96, 98]","[54, 81, 102, 108, 136]",Frankfurt Beast Reborn,
-2025-04-13 16:15:13,8253623162.0,Wкилеты,BRatiKI,BRatiKI,0.59,0.0,BRatiKI,"[19, 21, 29, 35, 64]","[72, 90, 94, 106, 131]",BRatiKI,
-2025-04-13 14:56:29,8253508795.0,Bor Tactical Gaming, Team HaliFFat, Team HaliFFat,0.58,0.0, Team HaliFFat,"[19, 64, 71, 77, 94]","[26, 53, 87, 104, 120]", Team HaliFFat,
-2025-04-13 14:50:30,8253499480.0,HIPPOMEN,BRatiKI,BRatiKI,0.58,0.0,BRatiKI,"[39, 79, 86, 97, 99]","[13, 42, 44, 119, 131]",BRatiKI,
-2025-04-13 14:17:32,8253446983.0,SevenGaming-T,Lazy,SevenGaming-T,0.63,0.0,SevenGaming-T,"[26, 35, 54, 60, 87]","[8, 29, 45, 49, 51]",SevenGaming-T,
-2025-04-13 13:30:10,8253370185.0,Clever moves, Team HaliFFat, Team HaliFFat,0.64,0.0, Team HaliFFat,"[10, 15, 29, 51, 64]","[7, 14, 21, 37, 54]", Team HaliFFat,
-2025-04-13 13:27:06,8253365256.0,HIPPOMEN,Deep Sea Predators,HIPPOMEN,0.58,0.0,HIPPOMEN,"[7, 73, 79, 86, 107]","[15, 42, 46, 64, 138]",HIPPOMEN,
-2025-04-13 13:24:53,8253361822.0,KOROLI FIDA,TEAM EGGS,KOROLI FIDA,0.53,0.0,KOROLI FIDA,"[8, 17, 38, 64, 68]","[14, 44, 105, 114, 128]",KOROLI FIDA,
-2025-04-13 13:22:54,8253358741.0,Bor Tactical Gaming,Kastrula team,Bor Tactical Gaming,0.66,0.0,Bor Tactical Gaming,"[38, 51, 53, 77, 102]","[26, 72, 75, 98, 112]",Bor Tactical Gaming,
-2025-04-13 12:36:53,8253287850.0,TEIKO,Elite Eclipse,Elite Eclipse,0.65,0.0,Elite Eclipse,"[13, 19, 34, 55, 93]","[11, 18, 51, 90, 120]",Elite Eclipse,
-2025-04-13 12:11:11,8253250386.0,还不走,早睡早起,还不走,0.75,1.0,还不走,"[5, 13, 49, 60, 119]","[10, 55, 74, 86, 105]",还不走,
-2025-04-13 12:09:35,8253248072.0,HIPPOMEN,DF VA MVD,HIPPOMEN,0.67,0.0,HIPPOMEN,"[47, 49, 60, 64, 86]","[8, 76, 87, 108, 112]",HIPPOMEN,
-2025-04-13 12:08:11,8253246071.0,Team Casual,Wкилеты,Wкилеты,0.75,1.0,Wкилеты,"[46, 61, 75, 86, 129]","[21, 42, 64, 106, 135]",Wкилеты,
-2025-04-13 12:02:46,8253238487.0,Order of the Night,Тейко,Тейко,0.74,1.0,Тейко,"[7, 54, 87, 96, 98]","[18, 34, 37, 38, 63]",Тейко,
-2025-04-13 12:00:15,8253227408.0,4Pirates,Zero Tenacity,Zero Tenacity,0.65,0.0,Zero Tenacity,"[23, 29, 53, 64, 75]","[21, 28, 37, 44, 99]",Zero Tenacity,
-2025-04-13 11:23:58,8253186202.0,Elite Eclipse,Teiko,Teiko,0.68,0.0,Teiko,"[15, 52, 71, 94, 119]","[13, 49, 63, 75, 97]",Teiko,
-2025-04-13 11:19:22,8253178349.0,早睡早起,还不走,早睡早起,0.57,0.0,早睡早起,"[10, 38, 79, 105, 120]","[26, 40, 42, 72, 76]",早睡早起,
-2025-04-13 22:01:35,8253995285.0,PARIVISION,Team Spirit,PARIVISION,0.68,0.0,PARIVISION,"[16, 46, 68, 78, 131]","[19, 62, 75, 94, 109]",PARIVISION,
-2025-04-13 12:58:15,8253320335.0,4Pirates,Zero Tenacity,4Pirates,0.65,0.0,4Pirates,"[19, 38, 64, 96, 131]","[5, 21, 23, 28, 72]",4Pirates,
-2025-04-13 05:28:10,8252806536.0,Teiko,Dominion,Teiko,0.58,0.0,Teiko,"[48, 91, 100, 128, 129]","[21, 49, 60, 75, 106]",Teiko,
-2025-04-13 23:08:54,8254032946.0,Team Spirit,PARIVISION,Team Spirit,0.62,0.0,Team Spirit,"[16, 19, 34, 52, 121]","[38, 93, 94, 105, 114]",Team Spirit,
-2025-04-13 23:38:00,8254044543.0,REAL ECLIPSE,Moonwalkers,REAL ECLIPSE,0.7,0.0,REAL ECLIPSE,"[14, 16, 46, 95, 128]","[42, 75, 102, 111, 126]",REAL ECLIPSE,
-2025-04-14 09:58:35,8254387687.0,FenixTeam,BulletProofs,BulletProofs,0.75,1.0,BulletProofs,"[18, 40, 43, 96, 111]","[26, 91, 97, 136, 138]",BulletProofs,
-2025-04-14 08:37:30,8254331463.0,Nethercore,Business Club,Nethercore,0.7,0.0,Nethercore,"[16, 27, 52, 94, 119]","[23, 46, 84, 86, 108]",Nethercore,
-2025-04-14 08:11:56,8254314393.0,Flawless Goblins,Dragon Blood,Flawless Goblins,0.7,0.0,Flawless Goblins,"[11, 21, 44, 86, 114]","[14, 18, 53, 76, 84]",Flawless Goblins,
-2025-04-14 07:43:20,8254295052.0,Business Club,Nethercore,Nethercore,0.6,0.0,Nethercore,"[19, 26, 49, 90, 120]","[21, 70, 75, 114, 129]",Nethercore,
-2025-04-14 06:36:06,8254256227.0,Nethercore,Eуе Gaming,Eуе Gaming,0.64,0.0,Eуе Gaming,"[28, 44, 63, 71, 77]","[23, 60, 75, 89, 131]",Eуе Gaming,
-2025-04-14 06:20:59,8254247760.0,RuleBreakers,Lucky Bulldogs,Lucky Bulldogs,0.69,0.0,Lucky Bulldogs,"[16, 26, 81, 85, 129]","[22, 27, 65, 72, 104]",Lucky Bulldogs,
-2025-04-14 06:10:55,8254242142.0,Mad Monkeys,Bright Crusaders,Mad Monkeys,0.67,0.0,Mad Monkeys,"[4, 5, 11, 14, 49]","[44, 61, 64, 86, 105]",Mad Monkeys,
-2025-04-14 04:49:01,8254199529.0,Ninja Bros,Lighting Legends,Ninja Bros,0.61,0.0,Ninja Bros,"[28, 54, 101, 120, 131]","[2, 35, 44, 71, 86]",Ninja Bros,
-2025-04-14 04:46:51,8254198634.0,Swift Knights,Shadow Avengers,Swift Knights,0.66,0.0,Swift Knights,"[8, 68, 91, 103, 120]","[19, 37, 38, 53, 110]",Swift Knights,
-2025-04-14 04:05:21,8254173312.0,Lighting Legends,Ninja Bros,Lighting Legends,0.63,0.0,Lighting Legends,"[28, 35, 44, 86, 111]","[42, 71, 75, 102, 106]",Lighting Legends,
-2025-04-14 01:00:54,8254083847.0,Wild Dragon,TOXIC TEAM,Wild Dragon,0.65,0.0,Wild Dragon,"[46, 68, 69, 70, 86]","[26, 38, 48, 91, 94]",Wild Dragon,
-2025-04-14 12:11:21,8254506504.0,Solid,FaZe Clan,FaZe Clan,0.65,0.0,FaZe Clan,"[2, 5, 28, 46, 51]","[8, 23, 31, 97, 123]",FaZe Clan,
-2025-04-14 10:36:55,8254418065.0,Ghost Sheep,Prodigy of God,Prodigy of God,0.6,0.0,Prodigy of God,"[19, 21, 38, 92, 136]","[33, 44, 53, 62, 75]",Prodigy of God,
-2025-04-14 10:14:54,8254399968.0,Eye Gaming ,Teiko,Eye Gaming ,0.69,0.0,Eye Gaming ,"[7, 10, 40, 91, 136]","[16, 46, 69, 103, 112]",Eye Gaming ,
-2025-04-14 12:44:40,8254545420.0,Shadow Avengers,Foxy gaming,Foxy gaming,0.65,0.0,Foxy gaming,"[5, 42, 53, 74, 86]","[2, 11, 13, 22, 84]",Foxy gaming,
+timestamp,match_id,team_a,team_b,predicted_winner,confidence,value_flag,actual_winner_x,team_a_heroes,team_b_heroes,actual_winner_y,actual_winner,radiant_team,dire_team,duration,start_time,team_a_power,team_b_power,team_a_synergy,team_b_synergy
+2025-04-14 19:45:59,8255073442.0,Frankfurt Beast Reborn,polish rejects,,,,,"[2, 21, 74, 75, 94]","[15, 17, 35, 73, 105]",,polish rejects,Frankfurt Beast Reborn,polish rejects,2128.0,1744659959.0,0.0,0.0,4.0,1.0
+2025-04-14 19:04:13,8255029783.0,Frankfurt Beast Reborn,polish rejects,,,,,"[10, 21, 26, 67, 104]","[14, 46, 53, 64, 86]",,polish rejects,Frankfurt Beast Reborn,polish rejects,1337.0,1744657453.0,0.0,0.0,3.0,7.0
+2025-04-14 18:57:34,8255022615.0,Dulo,Chill outstanding composed kings,,,,,"[29, 34, 48, 64, 76]","[22, 42, 46, 112, 131]",,Dulo,Dulo,Chill outstanding composed kings,3319.0,1744657054.0,0.0,0.0,1.0,2.0
+2025-04-14 18:07:00,8254963315.0,Bociarnia,Poland,,,,,"[7, 55, 100, 109, 138]","[10, 16, 17, 64, 79]",,Poland,Bociarnia,Poland,2783.0,1744654020.0,0.0,0.0,3.0,5.0
+2025-04-14 18:02:13,8254960356.0,tam_sme,TRENDISTITE,,,,,"[11, 42, 68, 71, 90]","[21, 55, 76, 92, 100]",,tam_sme,tam_sme,TRENDISTITE,1606.0,1744653733.0,0.0,0.0,2.0,1.0
+2025-04-14 17:28:25,8254920393.0,52turbo,Purple rush,,,,,"[33, 34, 46, 68, 137]","[37, 54, 63, 74, 99]",,52turbo,52turbo,Purple rush,1214.0,1744651705.0,0.0,0.0,2.0,2.0
+2025-04-14 17:16:53,8254907140.0,TRENDISTITE,tam_sme,,,,,"[25, 38, 49, 64, 90]","[23, 41, 68, 75, 114]",,tam_sme,TRENDISTITE,tam_sme,1730.0,1744651013.0,0.0,0.0,3.0,5.0
+2025-04-14 17:10:13,8254897812.0,hidden pool,Creative Team,,,,,"[19, 27, 54, 106, 135]","[15, 31, 74, 131, 138]",,Creative Team,hidden pool,Creative Team,2239.0,1744650613.0,0.0,0.0,2.0,1.0
+2025-04-14 14:48:31,8254715612.0,Wiser Warriors,Bright Crusaders,,,,,"[4, 11, 18, 26, 50]","[2, 7, 53, 74, 84]",,Bright Crusaders,Wiser Warriors,Bright Crusaders,1589.0,1744642111.0,0.0,0.0,1.0,5.0
+2025-04-14 14:10:29,8254662385.0,Bright Crusaders,Wiser Warriors,,,,,"[19, 37, 49, 63, 97]","[5, 14, 25, 48, 114]",,Wiser Warriors,Bright Crusaders,Wiser Warriors,1643.0,1744639829.0,0.0,0.0,3.0,1.0
+2025-04-14 13:55:50,8254642426.0,Romashku,BloodyRose,,,,,"[1, 13, 34, 79, 137]","[10, 19, 97, 100, 138]",,BloodyRose,Romashku,BloodyRose,1444.0,1744638950.0,0.0,0.0,0.0,2.0
+2025-04-14 13:20:51,8254592372.0,Teiko,Elite Eclipse,,,,,"[23, 42, 52, 84, 109]","[18, 26, 60, 71, 74]",,Elite Eclipse,Teiko,Elite Eclipse,2037.0,1744636851.0,0.0,0.0,2.0,6.0
+2025-04-14 13:05:13,8254571776.0,BloodyRose,Romashku,,,,,"[2, 54, 68, 120, 131]","[5, 7, 49, 60, 91]",,BloodyRose,BloodyRose,Romashku,1964.0,1744635913.0,0.0,0.0,3.0,2.0
+2025-04-14 13:02:42,8254568907.0,Mine GG Soo BiGggggg！,one two three,,,,,"[10, 27, 64, 94, 120]","[5, 35, 42, 63, 69]",,Mine GG Soo BiGggggg！,Mine GG Soo BiGggggg！,one two three,1996.0,1744635762.0,0.0,0.0,2.0,0.0
+2025-04-14 13:01:12,8254567739.0,FaZe Clan,Solid,,,,,"[19, 26, 40, 41, 76]","[39, 44, 63, 64, 97]",,Solid,FaZe Clan,Solid,2640.0,1744635672.0,0.0,0.0,2.0,2.0
+2025-04-14 12:44:40,8254545420.0,Shadow Avengers,Foxy gaming,,,,,"[5, 42, 53, 74, 86]","[2, 11, 13, 22, 84]",,Foxy gaming,Shadow Avengers,Foxy gaming,2008.0,1744634680.0,0.0,0.0,7.0,4.0
+2025-04-14 12:11:21,8254506504.0,Solid,FaZe Clan,,,,,"[2, 5, 28, 46, 51]","[8, 23, 31, 97, 123]",,FaZe Clan,Solid,FaZe Clan,1941.0,1744632681.0,0.0,0.0,3.0,0.0
+2025-04-14 10:36:55,8254418065.0,Ghost Sheep,Prodigy of God,,,,,"[19, 21, 38, 92, 136]","[33, 44, 53, 62, 75]",,Prodigy of God,Ghost Sheep,Prodigy of God,2128.0,1744627015.0,0.0,0.0,2.0,3.0
+2025-04-14 10:14:54,8254399968.0,Eye Gaming ,Teiko,,,,,"[7, 10, 40, 91, 136]","[16, 46, 69, 103, 112]",,Eye Gaming ,Eye Gaming ,Teiko,2336.0,1744625694.0,0.0,0.0,1.0,2.0
+2025-04-14 09:58:35,8254387687.0,FenixTeam,BulletProofs,,,,,"[18, 40, 43, 96, 111]","[26, 91, 97, 136, 138]",,BulletProofs,FenixTeam,BulletProofs,1503.0,1744624715.0,0.0,0.0,1.0,0.0
+2025-04-14 08:37:30,8254331463.0,Nethercore,Business Club,,,,,"[16, 27, 52, 94, 119]","[23, 46, 84, 86, 108]",,Nethercore,Nethercore,Business Club,2734.0,1744619850.0,0.0,0.0,2.0,8.0
+2025-04-14 08:11:56,8254314393.0,Flawless Goblins,Dragon Blood,,,,,"[11, 21, 44, 86, 114]","[14, 18, 53, 76, 84]",,Flawless Goblins,Flawless Goblins,Dragon Blood,1913.0,1744618316.0,0.0,0.0,3.0,1.0
+2025-04-14 07:43:20,8254295052.0,Business Club,Nethercore,,,,,"[19, 26, 49, 90, 120]","[21, 70, 75, 114, 129]",,Nethercore,Business Club,Nethercore,1968.0,1744616600.0,0.0,0.0,4.0,5.0
+2025-04-14 06:36:06,8254256227.0,Nethercore,Eуе Gaming,,,,,"[28, 44, 63, 71, 77]","[23, 60, 75, 89, 131]",,Eуе Gaming,Nethercore,Eуе Gaming,2041.0,1744612566.0,0.0,0.0,1.0,4.0
+2025-04-14 06:20:59,8254247760.0,RuleBreakers,Lucky Bulldogs,,,,,"[16, 26, 81, 85, 129]","[22, 27, 65, 72, 104]",,Lucky Bulldogs,RuleBreakers,Lucky Bulldogs,2014.0,1744611659.0,0.0,0.0,0.0,1.0
+2025-04-14 06:10:55,8254242142.0,Mad Monkeys,Bright Crusaders,,,,,"[4, 5, 11, 14, 49]","[44, 61, 64, 86, 105]",,Mad Monkeys,Mad Monkeys,Bright Crusaders,1690.0,1744611055.0,0.0,0.0,1.0,1.0
+2025-04-14 04:49:01,8254199529.0,Ninja Bros,Lighting Legends,,,,,"[28, 54, 101, 120, 131]","[2, 35, 44, 71, 86]",,Ninja Bros,Ninja Bros,Lighting Legends,1655.0,1744606141.0,0.0,0.0,4.0,3.0
+2025-04-14 04:46:51,8254198634.0,Swift Knights,Shadow Avengers,,,,,"[8, 68, 91, 103, 120]","[19, 37, 38, 53, 110]",,Swift Knights,Swift Knights,Shadow Avengers,1712.0,1744606011.0,0.0,0.0,0.0,4.0
+2025-04-14 04:05:21,8254173312.0,Lighting Legends,Ninja Bros,,,,,"[28, 35, 44, 86, 111]","[42, 71, 75, 102, 106]",,Lighting Legends,Lighting Legends,Ninja Bros,1877.0,1744603521.0,0.0,0.0,2.0,7.0
+2025-04-14 01:00:54,8254083847.0,Wild Dragon,TOXIC TEAM,,,,,"[46, 68, 69, 70, 86]","[26, 38, 48, 91, 94]",,Wild Dragon,Wild Dragon,TOXIC TEAM,1576.0,1744592454.0,0.0,0.0,2.0,2.0
+2025-04-13 23:38:00,8254044543.0,REAL ECLIPSE,Moonwalkers,,,,,"[14, 16, 46, 95, 128]","[42, 75, 102, 111, 126]",,REAL ECLIPSE,REAL ECLIPSE,Moonwalkers,1670.0,1744587480.0,0.0,0.0,2.0,1.0
+2025-04-13 23:08:54,8254032946.0,Team Spirit,PARIVISION,,,,,"[16, 19, 34, 52, 121]","[38, 93, 94, 105, 114]",,Team Spirit,Team Spirit,PARIVISION,2412.0,1744585734.0,0.0,0.0,1.0,1.0
+2025-04-13 22:07:05,8253997110.0,Vitality Warriors,HELLBEAR HEROES,,,,,"[35, 51, 54, 86, 98]","[14, 22, 48, 102, 105]",,HELLBEAR HEROES,Vitality Warriors,HELLBEAR HEROES,1915.0,1744582025.0,0.0,0.0,6.0,1.0
+2025-04-13 22:01:35,8253995285.0,PARIVISION,Team Spirit,,,,,"[16, 46, 68, 78, 131]","[19, 62, 75, 94, 109]",,PARIVISION,PARIVISION,Team Spirit,2172.0,1744581695.0,0.0,0.0,3.0,2.0
+2025-04-13 20:59:08,8253950663.0,PARIVISION,Team Spirit,,,,,"[10, 19, 38, 68, 131]","[7, 62, 75, 94, 109]",,PARIVISION,PARIVISION,Team Spirit,2268.0,1744577948.0,0.0,0.0,6.0,2.0
+2025-04-13 19:56:26,8253889383.0,Meld z zaskoczenia,Frankfurt Beast Reborn,,,,,"[15, 21, 60, 84, 138]","[10, 29, 35, 43, 74]",,Frankfurt Beast Reborn,Meld z zaskoczenia,Frankfurt Beast Reborn,1958.0,1744574186.0,0.0,0.0,2.0,3.0
+2025-04-13 19:03:48,8253834683.0,Frankfurt Beast Reborn,Meld z zaskoczenia,,,,,"[10, 26, 63, 96, 98]","[54, 81, 102, 108, 136]",,Frankfurt Beast Reborn,Frankfurt Beast Reborn,Meld z zaskoczenia,1727.0,1744571028.0,0.0,0.0,2.0,0.0
+2025-04-13 18:00:04,8253754681.0,PARIVISION,Tundra Esports,,,,,"[46, 78, 106, 109, 131]","[10, 23, 55, 90, 103]",,PARIVISION,PARIVISION,Tundra Esports,4571.0,1744567204.0,0.0,0.0,2.0,2.0
+2025-04-13 16:15:13,8253623162.0,Wкилеты,BRatiKI,,,,,"[19, 21, 29, 35, 64]","[72, 90, 94, 106, 131]",,BRatiKI,Wкилеты,BRatiKI,2933.0,1744560913.0,0.0,0.0,7.0,2.0
+2025-04-13 14:56:29,8253508795.0,Bor Tactical Gaming, Team HaliFFat,,,,,"[19, 64, 71, 77, 94]","[26, 53, 87, 104, 120]",, Team HaliFFat,Bor Tactical Gaming, Team HaliFFat,2213.0,1744556189.0,0.0,0.0,3.0,3.0
+2025-04-13 14:50:30,8253499480.0,HIPPOMEN,BRatiKI,,,,,"[39, 79, 86, 97, 99]","[13, 42, 44, 119, 131]",,BRatiKI,HIPPOMEN,BRatiKI,1999.0,1744555830.0,0.0,0.0,3.0,1.0
+2025-04-13 14:17:32,8253446983.0,SevenGaming-T,Lazy,,,,,"[26, 35, 54, 60, 87]","[8, 29, 45, 49, 51]",,SevenGaming-T,SevenGaming-T,Lazy,2169.0,1744553852.0,0.0,0.0,2.0,2.0
+2025-04-13 13:30:10,8253370185.0,Clever moves, Team HaliFFat,,,,,"[10, 15, 29, 51, 64]","[7, 14, 21, 37, 54]",, Team HaliFFat,Clever moves, Team HaliFFat,1923.0,1744551010.0,0.0,0.0,7.0,1.0
+2025-04-13 13:27:06,8253365256.0,HIPPOMEN,Deep Sea Predators,,,,,"[7, 73, 79, 86, 107]","[15, 42, 46, 64, 138]",,HIPPOMEN,HIPPOMEN,Deep Sea Predators,2721.0,1744550826.0,0.0,0.0,2.0,6.0
+2025-04-13 13:24:53,8253361822.0,KOROLI FIDA,TEAM EGGS,,,,,"[8, 17, 38, 64, 68]","[14, 44, 105, 114, 128]",,KOROLI FIDA,KOROLI FIDA,TEAM EGGS,1676.0,1744550693.0,0.0,0.0,3.0,2.0
+2025-04-13 13:22:54,8253358741.0,Bor Tactical Gaming,Kastrula team,,,,,"[38, 51, 53, 77, 102]","[26, 72, 75, 98, 112]",,Bor Tactical Gaming,Bor Tactical Gaming,Kastrula team,2340.0,1744550574.0,0.0,0.0,2.0,2.0
