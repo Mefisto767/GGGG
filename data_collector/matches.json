@@ -1561,5 +1561,68 @@
       74
     ],
     "actual_winner": "Elite Eclipse"
+  },
+  {
+    "timestamp": "2025-04-14 14:48:31",
+    "match_id": 8254715612,
+    "team_a": "Wiser Warriors",
+    "team_b": "Bright Crusaders",
+    "team_a_heroes": [
+      4,
+      11,
+      18,
+      26,
+      50
+    ],
+    "team_b_heroes": [
+      2,
+      7,
+      53,
+      74,
+      84
+    ],
+    "actual_winner": "Bright Crusaders"
+  },
+  {
+    "timestamp": "2025-04-14 14:10:29",
+    "match_id": 8254662385,
+    "team_a": "Bright Crusaders",
+    "team_b": "Wiser Warriors",
+    "team_a_heroes": [
+      19,
+      37,
+      49,
+      63,
+      97
+    ],
+    "team_b_heroes": [
+      5,
+      14,
+      25,
+      48,
+      114
+    ],
+    "actual_winner": "Wiser Warriors"
+  },
+  {
+    "timestamp": "2025-04-14 13:55:50",
+    "match_id": 8254642426,
+    "team_a": "Romashku",
+    "team_b": "BloodyRose",
+    "team_a_heroes": [
+      1,
+      13,
+      34,
+      79,
+      137
+    ],
+    "team_b_heroes": [
+      10,
+      19,
+      97,
+      100,
+      138
+    ],
+    "actual_winner": "BloodyRose"
   }
 ]
