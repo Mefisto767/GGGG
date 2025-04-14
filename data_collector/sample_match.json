@@ -1,0 +1,9 @@
+{
+  "match_id": 987654,
+  "team_a": "Gaimin Gladiators",
+  "team_b": "BetBoom Team",
+  "draft": {
+    "team_a": ["Timbersaw", "Snapfire", "Rubick", "Ember Spirit", "Underlord"],
+    "team_b": ["Faceless Void", "Pugna", "Dark Willow", "Void Spirit", "Centaur"]
+  }
+}

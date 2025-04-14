@@ -1,0 +1,124 @@
+timestamp,match_id,team_a,team_b,predicted_winner,confidence,value_flag,actual_winner
+2025-04-13 02:09:02,8252515077.0,Tundra Esports,Team Spirit,Team Spirit,0.69,0.0,Team Spirit
+2025-04-13 00:53:01,8252443115.0,Team Spirit,Tundra Esports,Team Spirit,0.4464999999999999,0.0,Team Spirit
+2025-04-12 23:14:18,8252343416.0,Air Defence,Romashku,Air Defence,0.4303333333333333,0.0,Romashku
+2025-04-12 23:34:48,8252320232.0,Team Spirit,Tundra Esports,Team Spirit,0.4464999999999999,0.0,Tundra Esports
+2025-04-12 22:24:27,8252279004.0,Team Poteryshka,Ni.VI,Ni.VI,0.68,0.0,Ni.VI
+2025-04-12 22:09:21,8252260988.0,Romashku,Air Defence,Air Defence,0.4823333333333334,0.0,Romashku
+2025-04-12 21:06:00,8252155975.0,BetBoom Team,Team Falcons,BetBoom Team,0.83,1.0,BetBoom Team
+2025-04-12 20:50:12,8252150488.0,Air Defence,Romashku,Air Defence,0.4303333333333333,0.0,Air Defence
+2025-04-12 19:57:03,8252074075.0,Shinigami Gaming,Prodigy of God,Shinigami Gaming,0.7,0.0,Shinigami Gaming
+2025-04-12 19:13:24,8252008025.0,Prodigy of God,Shinigami Gaming,Prodigy of God,0.63,0.0,Prodigy of God
+2025-04-12 19:12:57,8252006042.0,5DOGS,KRBKA team ,5DOGS,0.71,1.0,5DOGS
+2025-04-12 19:05:02,8251993176.0,Ni.VI,Arrancars,Ni.VI,0.52,0.0,Ni.VI
+2025-04-12 19:10:37,8251988181.0,Zero Tenacity,Team Lynx,Zero Tenacity,0.4515,0.0,Zero Tenacity
+2025-04-12 18:23:52,8251927775.0,SevenGaming-A,躺赢狗战队,躺赢狗战队,0.67,0.0,躺赢狗战队
+2025-04-12 18:21:18,8251909495.0,L1GA TEAM,Xtreme Gaming,Xtreme Gaming,0.58,0.0,Xtreme Gaming
+2025-04-12 18:08:53,8251903286.0,Mine GG Soo BiGggggg！,帅的惊动D,Mine GG Soo BiGggggg！,0.7,0.0,Mine GG Soo BiGggggg！
+2025-04-12 17:53:57,8251879029.0,SevenGaming-A,Dire,SevenGaming-A,0.54,0.0,SevenGaming-A
+2025-04-12 17:46:51,8251867592.0,Radiant,Dire,Dire,0.57,0.0,Dire
+2025-04-12 17:20:39,8251825913.0,龙律队,还不走,龙律队,0.65,0.0,龙律队
+2025-04-12 17:29:09,8251823901.0,Xtreme Gaming,L1GA TEAM,Xtreme Gaming,0.7383333333333333,1.0,Xtreme Gaming
+2025-04-12 17:02:11,8251797616.0,one two three,WolfSmash.Gaming,WolfSmash.Gaming,0.55,0.0,WolfSmash.Gaming
+2025-04-12 17:01:55,8251795377.0,Zero Tenacity,Team Lynx,Zero Tenacity,0.4515,0.0,Team Lynx
+2025-04-12 16:53:30,8251781597.0,躺赢狗战队,SevenGaming-A,躺赢狗战队,0.69,0.0,躺赢狗战队
+2025-04-12 16:46:12,8251772905.0,Ghost Sheep,Nethercore,Ghost Sheep,0.68,0.0,Ghost Sheep
+2025-04-12 16:14:22,8251724562.0,还不走,龙律队,龙律队,0.7,0.0,龙律队
+2025-04-12 16:04:56,8251716749.0,WolfSmash.Gaming,one two three,WolfSmash.Gaming,0.58,0.0,WolfSmash.Gaming
+2025-04-12 15:54:51,8251703648.0,Nethercore,Ghost Sheep,Nethercore,0.79,1.0,Nethercore
+2025-04-12 16:04:35,8251686994.0,1w Team,Virtus.pro,Virtus.pro,0.4740000000000001,0.0,Virtus.pro
+2025-04-12 15:44:14,8251679917.0,Team Lynx,Bikini Bottom,Team Lynx,0.4715714285714286,0.0,Team Lynx
+2025-04-12 14:28:10,8251597258.0,Virtus.pro,1w Team,Virtus.pro,0.65,0.0,Virtus.pro
+2025-04-12 13:53:14,8251562061.0,Air Defence,Nethercore,Nethercore,0.48,0.0,Nethercore
+2025-04-12 13:34:08,8251540421.0,Shadow Avengers,Wiser Warriors,Shadow Avengers,0.6,0.0,Shadow Avengers
+2025-04-12 13:00:27,8251503792.0,Team Lynx,Bikini Bottom,Team Lynx,0.4715714285714286,0.0,Bikini Bottom
+2025-04-12 13:00:20,8251494401.0,1w Team,Virtus.pro,Virtus.pro,0.4740000000000001,0.0,1w Team
+2025-04-12 12:39:39,8251478138.0,Wiser Warriors,Shadow Avengers,Shadow Avengers,0.62,0.0,Shadow Avengers
+2025-04-12 12:34:59,8251476597.0,Nethercore,Air Defence,Nethercore,0.71,1.0,Nethercore
+2025-04-12 11:50:10,8251431694.0,LSG,Bright Crusaders,LSG,0.67,0.0,LSG
+2025-04-12 11:38:16,8251416641.0,Ivory,Yangon Galacticos,Ivory,0.71,1.0,Ivory
+2025-04-12 11:26:01,8251406028.0,Eye Gaming,Shinigami Gaming,Shinigami Gaming,0.77,1.0,Shinigami Gaming
+2025-04-12 11:09:44,8251390578.0,Bright Crusaders,LSG,LSG,0.66,0.0,LSG
+2025-04-12 10:21:19,8251348664.0,Foxy gaming,Mad Monkeys,Foxy gaming,0.8,1.0,Foxy gaming
+2025-04-12 10:16:47,8251345482.0,Shinigami Gaming,Eye Gaming,Eye Gaming,0.66,0.0,Eye Gaming
+2025-04-12 10:06:13,8251332094.0,Yangon Galacticos,Ivory,Ivory,0.4748333333333333,0.0,Yangon Galacticos
+2025-04-12 09:48:29,8251322080.0,Mad Monkeys,Foxy gaming,Foxy gaming,0.57,0.0,Foxy gaming
+2025-04-12 09:03:06,8251287435.0,Flawless Goblins,Dark Rebellion,Dark Rebellion,0.6,0.0,Dark Rebellion
+2025-04-12 08:23:21,8251259156.0,Dark Rebellion,Flawless Goblins,Dark Rebellion,0.74,1.0,Dark Rebellion
+2025-04-12 07:59:44,8251240991.0,Yangon Galacticos,Ivory,Ivory,0.4748333333333333,0.0,Ivory
+2025-04-12 05:39:06,8251151245.0,TOXIC TEAM,Moonwalkers,TOXIC TEAM,0.4255,0.0,TOXIC TEAM
+2025-04-12 05:29:02,8251138373.0,PARIVISION,Team Liquid,PARIVISION,0.9,1.0,PARIVISION
+2025-04-12 05:03:10,8251131599.0,Moonwalkers,TOXIC TEAM,TOXIC TEAM,0.71,1.0,TOXIC TEAM
+2025-04-12 04:24:37,8251112232.0,TOXIC TEAM,Moonwalkers,TOXIC TEAM,0.4255,0.0,Moonwalkers
+2025-04-12 03:35:35,8251087600.0,Wild Dragon,HELLBEAR HEROES,Wild Dragon,0.64,0.0,Wild Dragon
+2025-04-12 03:03:14,8251069363.0,Team Liquid,PARIVISION,Team Liquid,0.77,1.0,Team Liquid
+2025-04-12 02:49:45,8251059647.0,HELLBEAR HEROES,Wild Dragon,Wild Dragon,0.54,0.0,Wild Dragon
+2025-04-12 02:12:24,8251037744.0,Night Vision,Vitality Warriors,Vitality Warriors,0.63,0.0,Vitality Warriors
+2025-04-12 01:34:52,8251008592.0,Vitality Warriors,Night Vision,Vitality Warriors,0.56,0.0,Vitality Warriors
+2025-04-12 00:52:13,8250970976.0,REAL ECLIPSE,Silent killer,Silent killer,0.64,0.0,Silent killer
+2025-04-12 00:37:02,8250942550.0,Nigma Galaxy,BetBoom Team,BetBoom Team,0.64,0.0,BetBoom Team
+2025-04-12 00:03:42,8250921950.0,Chill,V for Vendeta,V for Vendeta,0.71,1.0,V for Vendeta
+2025-04-12 00:03:17,8250919496.0,Silent killer,REAL ECLIPSE,Silent killer,0.71,1.0,Silent killer
+2025-04-11 23:35:32,8250853805.0,BetBoom Team,Nigma Galaxy,BetBoom Team,0.89,1.0,BetBoom Team
+2025-04-11 23:00:28,8250846860.0,V for Vendeta,Chill,V for Vendeta,0.7,0.0,V for Vendeta
+2025-04-11 21:44:31,8250751980.0,Студените,Dulo,Студените,0.7,0.0,Студените
+2025-04-11 21:17:34,8250715424.0,5DOGS,hidden pool,5DOGS,0.77,1.0,5DOGS
+2025-04-11 21:09:10,8250704591.0,Dulo,Студените,Студените,0.67,0.0,Студените
+2025-04-11 21:05:53,8250699987.0,52turbo,Ni.VI,52turbo,0.61,0.0,52turbo
+2025-04-11 21:12:04,8250691749.0,Team Liquid,AVULUS,Team Liquid,0.78,1.0,Team Liquid
+2025-04-11 20:17:57,8250635425.0,4Pirates,Zero Tenacity,4Pirates,0.59,0.0,4Pirates
+2025-04-11 19:53:03,8250598379.0,Romashku,Air Defence,Air Defence,0.4823333333333334,0.0,Air Defence
+2025-04-11 19:59:40,8250569189.0,AVULUS,Team Liquid,Team Liquid,0.65,0.0,Team Liquid
+2025-04-11 18:54:50,8250507431.0,BloodyRose,Air Defence,Air Defence,0.4426666666666666,0.0,BloodyRose
+2025-04-11 18:42:32,8250492717.0,Bright Crusaders,Swift Knights,Bright Crusaders,0.526952380952381,0.0,Bright Crusaders
+2025-04-11 18:17:48,8250451899.0,Mine GG Soo BiGggggg！,羊村,羊村,0.58,0.0,羊村
+2025-04-11 18:13:50,8250448986.0,Shinigami Gaming,Teiko,Shinigami Gaming,0.69,0.0,Shinigami Gaming
+2025-04-11 18:03:35,8250433522.0,BloodyRose,Air Defence,Air Defence,0.4426666666666666,0.0,Air Defence
+2025-04-11 18:02:55,8250431523.0,Swift Knights,Bright Crusaders,Bright Crusaders,0.64,0.0,Bright Crusaders
+2025-04-11 18:01:32,8250430364.0,HYDRA,Bikini Bottom,Bikini Bottom,0.6641666666666667,0.0,Bikini Bottom
+2025-04-11 17:22:05,8250372584.0,Bright Crusaders,Swift Knights,Bright Crusaders,0.526952380952381,0.0,Swift Knights
+2025-04-11 17:25:03,8250371840.0,Air Defence,BloodyRose,BloodyRose,0.59,0.0,BloodyRose
+2025-04-11 17:19:33,8250369764.0,Radiant,WolfSmash.Gaming,Radiant,0.66,0.0,Radiant
+2025-04-11 17:19:59,8250369524.0,TEIKO,Shinigami Gaming,Shinigami Gaming,0.73,1.0,Shinigami Gaming
+2025-04-11 17:11:06,8250358172.0,SevenGaming-T,早睡早起,SevenGaming-T,0.65,0.0,SevenGaming-T
+2025-04-11 17:06:14,8250351584.0,还不走,小鸟队,还不走,0.61,0.0,还不走
+2025-04-11 17:00:18,8250337243.0,羊村,Mine GG Soo BiGggggg！,羊村,0.62,0.0,羊村
+2025-04-11 16:55:06,8250325248.0,Xtreme Gaming,Virtus.pro,Xtreme Gaming,0.5315000000000001,0.0,Xtreme Gaming
+2025-04-11 16:40:16,8250317150.0,Mad Monkeys,Wiser Warriors,Mad Monkeys,0.57,0.0,Mad Monkeys
+2025-04-13 13:23:02,8253042214.0,Ghost Sheep,BloodyRose,Ghost Sheep,0.71,1.0,Ghost Sheep
+2025-04-13 13:10:51,8253027523.0,Dark Rebellion,Mad Monkeys,Dark Rebellion,0.68,0.0,Dark Rebellion
+2025-04-13 12:21:45,8252972710.0,Dragon Blood,Shadow Avengers,Dragon Blood,0.65,0.0,Dragon Blood
+2025-04-13 12:09:27,8252958766.0,Romashku,Nethercore,Romashku,0.7283333333333333,1.0,Romashku
+2025-04-13 11:42:54,8252930709.0,Shadow Avengers,Dragon Blood,Dragon Blood,0.72,1.0,Dragon Blood
+2025-04-13 11:17:10,8252904847.0,Teiko,Dominion,Teiko,0.7,0.0,Teiko
+2025-04-13 10:59:37,8252887160.0,Flawless Goblins,Wiser Warriors,Wiser Warriors,0.58,0.0,Wiser Warriors
+2025-04-13 10:18:51,8252849583.0,Wiser Warriors,Flawless Goblins,Wiser Warriors,0.71,1.0,Wiser Warriors
+2025-04-13 10:16:24,8252847814.0,Dominion,Teiko,Dominion,0.68,0.0,Dominion
+2025-04-13 09:30:22,8252809017.0,Bright Crusaders,Foxy gaming,Bright Crusaders,0.7458333333333335,1.0,Bright Crusaders
+2025-04-13 08:47:41,8252776056.0,Foxy gaming,Bright Crusaders,Foxy gaming,0.72,1.0,Foxy gaming
+2025-04-13 07:06:01,8252697513.0,PARIVISION,BetBoom Team,PARIVISION,0.87,1.0,PARIVISION
+2025-04-13 03:49:55,8252576577.0,BetBoom Team,PARIVISION,BetBoom Team,0.8,1.0,BetBoom Team
+2025-04-13 13:02:55,8253009800.0,L1GA TEAM,Virtus.pro,Virtus.pro,0.7573333333333333,1.0,Virtus.pro
+,,PARIVISION,Team Spirit,PARIVISION,0.9,1.0,PARIVISION
+2025-04-13 22:07:05,8253997110.0,Vitality Warriors,HELLBEAR HEROES,,,,HELLBEAR HEROES
+2025-04-13 19:56:26,8253889383.0,Meld z zaskoczenia,Frankfurt Beast Reborn,,,,Frankfurt Beast Reborn
+2025-04-13 19:03:48,8253834683.0,Frankfurt Beast Reborn,Meld z zaskoczenia,,,,Frankfurt Beast Reborn
+2025-04-13 16:15:13,8253623162.0,Wкилеты,BRatiKI,,,,BRatiKI
+2025-04-13 14:56:29,8253508795.0,Bor Tactical Gaming, Team HaliFFat,,,, Team HaliFFat
+2025-04-13 14:50:30,8253499480.0,HIPPOMEN,BRatiKI,,,,BRatiKI
+2025-04-13 14:17:32,8253446983.0,SevenGaming-T,Lazy,,,,SevenGaming-T
+2025-04-13 13:30:10,8253370185.0,Clever moves, Team HaliFFat,,,, Team HaliFFat
+2025-04-13 13:27:06,8253365256.0,HIPPOMEN,Deep Sea Predators,,,,HIPPOMEN
+2025-04-13 13:24:53,8253361822.0,KOROLI FIDA,TEAM EGGS,,,,KOROLI FIDA
+2025-04-13 13:22:54,8253358741.0,Bor Tactical Gaming,Kastrula team,,,,Bor Tactical Gaming
+2025-04-13 12:36:53,8253287850.0,TEIKO,Elite Eclipse,,,,Elite Eclipse
+2025-04-13 12:11:11,8253250386.0,还不走,早睡早起,,,,还不走
+2025-04-13 12:09:35,8253248072.0,HIPPOMEN,DF VA MVD,,,,HIPPOMEN
+2025-04-13 12:08:11,8253246071.0,Team Casual,Wкилеты,,,,Wкилеты
+2025-04-13 12:02:46,8253238487.0,Order of the Night,Тейко,,,,Тейко
+2025-04-13 12:00:15,8253227408.0,4Pirates,Zero Tenacity,,,,Zero Tenacity
+2025-04-13 11:23:58,8253186202.0,Elite Eclipse,Teiko,,,,Teiko
+2025-04-13 11:19:22,8253178349.0,早睡早起,还不走,,,,早睡早起
+2025-04-13 22:01:35,8253995285.0,PARIVISION,Team Spirit,,,,PARIVISION
+2025-04-13 12:58:15,8253320335.0,4Pirates,Zero Tenacity,,,,4Pirates
+2025-04-13 05:28:10,8252806536.0,Teiko,Dominion,,,,Teiko

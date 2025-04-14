@@ -1,0 +1,1397 @@
+[
+  {
+    "match_id": 8253950663,
+    "radiant_team": "PARIVISION",
+    "dire_team": "Team Spirit",
+    "actual_winner": "Radiant",
+    "duration": 2268,
+    "start_time": "2025-04-13 20:59:08"
+  },
+  {
+    "match_id": 8253754681,
+    "radiant_team": "PARIVISION",
+    "dire_team": "Tundra Esports",
+    "actual_winner": "Radiant",
+    "duration": 4571,
+    "start_time": "2025-04-13 18:00:04"
+  },
+  {
+    "match_id": 8253706734,
+    "radiant_team": "Xtreme Gaming",
+    "dire_team": "Virtus.pro",
+    "actual_winner": "Radiant",
+    "duration": 2473,
+    "start_time": "2025-04-13 17:33:04"
+  },
+  {
+    "match_id": 8253666074,
+    "radiant_team": "PARIVISION",
+    "dire_team": "Tundra Esports",
+    "actual_winner": "Radiant",
+    "duration": 1636,
+    "start_time": "2025-04-13 17:00:00"
+  },
+  {
+    "match_id": 8253643707,
+    "radiant_team": "Xtreme Gaming",
+    "dire_team": "Virtus.pro",
+    "actual_winner": "Radiant",
+    "duration": 1815,
+    "start_time": "2025-04-13 16:33:05"
+  },
+  {
+    "match_id": 8253576449,
+    "radiant_team": "Tundra Esports",
+    "dire_team": "PARIVISION",
+    "actual_winner": "Radiant",
+    "duration": 1586,
+    "start_time": "2025-04-13 15:59:15"
+  },
+  {
+    "match_id": 8253553033,
+    "radiant_team": "Xtreme Gaming",
+    "dire_team": "Virtus.pro",
+    "actual_winner": "Dire",
+    "duration": 1929,
+    "start_time": "2025-04-13 15:34:18"
+  },
+  {
+    "match_id": 8253440364,
+    "radiant_team": "Xtreme Gaming",
+    "dire_team": "Virtus.pro",
+    "actual_winner": "Radiant",
+    "duration": 2438,
+    "start_time": "2025-04-13 14:17:48"
+  },
+  {
+    "match_id": 8253312968,
+    "radiant_team": "Virtus.pro",
+    "dire_team": "Xtreme Gaming",
+    "actual_winner": "Radiant",
+    "duration": 3079,
+    "start_time": "2025-04-13 13:00:11"
+  },
+  {
+    "match_id": 8253110385,
+    "radiant_team": "Romashku",
+    "dire_team": "Nethercore",
+    "actual_winner": "Radiant",
+    "duration": 1612,
+    "start_time": "2025-04-13 10:21:29"
+  },
+  {
+    "match_id": 8253095069,
+    "radiant_team": "Virtus.pro",
+    "dire_team": "L1GA TEAM",
+    "actual_winner": "Radiant",
+    "duration": 2297,
+    "start_time": "2025-04-13 10:15:22"
+  },
+  {
+    "match_id": 8253080409,
+    "radiant_team": "Mad Monkeys",
+    "dire_team": "Dark Rebellion",
+    "actual_winner": "Dire",
+    "duration": 2294,
+    "start_time": "2025-04-13 09:56:22"
+  },
+  {
+    "match_id": 8253037514,
+    "radiant_team": "Nethercore",
+    "dire_team": "Romashku",
+    "actual_winner": "Radiant",
+    "duration": 2562,
+    "start_time": "2025-04-13 09:18:28"
+  },
+  {
+    "match_id": 8253027523,
+    "radiant_team": "Dark Rebellion",
+    "dire_team": "Mad Monkeys",
+    "actual_winner": "Radiant",
+    "duration": 2146,
+    "start_time": "2025-04-13 09:10:51"
+  },
+  {
+    "match_id": 8253009800,
+    "radiant_team": "L1GA TEAM",
+    "dire_team": "Virtus.pro",
+    "actual_winner": "Dire",
+    "duration": 2807,
+    "start_time": "2025-04-13 09:02:55"
+  },
+  {
+    "match_id": 8252958766,
+    "radiant_team": "Romashku",
+    "dire_team": "Nethercore",
+    "actual_winner": "Radiant",
+    "duration": 2932,
+    "start_time": "2025-04-13 08:09:27"
+  },
+  {
+    "match_id": 8252887160,
+    "radiant_team": "Flawless Goblins",
+    "dire_team": "Wiser Warriors",
+    "actual_winner": "Dire",
+    "duration": 1692,
+    "start_time": "2025-04-13 06:59:37"
+  },
+  {
+    "match_id": 8252849583,
+    "radiant_team": "Wiser Warriors",
+    "dire_team": "Flawless Goblins",
+    "actual_winner": "Radiant",
+    "duration": 1856,
+    "start_time": "2025-04-13 06:18:51"
+  },
+  {
+    "match_id": 8252155975,
+    "radiant_team": "BetBoom Team",
+    "dire_team": "Team Falcons",
+    "actual_winner": "Radiant",
+    "duration": 2297,
+    "start_time": "2025-04-12 17:06:00"
+  },
+  {
+    "match_id": 8252042601,
+    "radiant_team": "BetBoom Team",
+    "dire_team": "Team Falcons",
+    "actual_winner": "Radiant",
+    "duration": 2043,
+    "start_time": "2025-04-12 16:00:13"
+  },
+  {
+    "match_id": 8251909495,
+    "radiant_team": "L1GA TEAM",
+    "dire_team": "Xtreme Gaming",
+    "actual_winner": "Dire",
+    "duration": 1572,
+    "start_time": "2025-04-12 14:21:18"
+  },
+  {
+    "match_id": 8251823901,
+    "radiant_team": "Xtreme Gaming",
+    "dire_team": "L1GA TEAM",
+    "actual_winner": "Radiant",
+    "duration": 1531,
+    "start_time": "2025-04-12 13:29:09"
+  },
+  {
+    "match_id": 8251562061,
+    "radiant_team": "Air Defence",
+    "dire_team": "Nethercore",
+    "actual_winner": "Dire",
+    "duration": 2066,
+    "start_time": "2025-04-12 09:53:14"
+  },
+  {
+    "match_id": 8251540421,
+    "radiant_team": "Shadow Avengers",
+    "dire_team": "Wiser Warriors",
+    "actual_winner": "Radiant",
+    "duration": 1511,
+    "start_time": "2025-04-12 09:34:08"
+  },
+  {
+    "match_id": 8251478138,
+    "radiant_team": "Wiser Warriors",
+    "dire_team": "Shadow Avengers",
+    "actual_winner": "Dire",
+    "duration": 2344,
+    "start_time": "2025-04-12 08:39:39"
+  },
+  {
+    "match_id": 8251476597,
+    "radiant_team": "Nethercore",
+    "dire_team": "Air Defence",
+    "actual_winner": "Radiant",
+    "duration": 3585,
+    "start_time": "2025-04-12 08:34:59"
+  },
+  {
+    "match_id": 8251431694,
+    "radiant_team": "LSG",
+    "dire_team": "Bright Crusaders",
+    "actual_winner": "Radiant",
+    "duration": 1880,
+    "start_time": "2025-04-12 07:50:10"
+  },
+  {
+    "match_id": 8251390578,
+    "radiant_team": "Bright Crusaders",
+    "dire_team": "LSG",
+    "actual_winner": "Dire",
+    "duration": 1685,
+    "start_time": "2025-04-12 07:09:44"
+  },
+  {
+    "match_id": 8250942550,
+    "radiant_team": "Nigma Galaxy",
+    "dire_team": "BetBoom Team",
+    "actual_winner": "Dire",
+    "duration": 3066,
+    "start_time": "2025-04-11 20:37:02"
+  },
+  {
+    "match_id": 8250853805,
+    "radiant_team": "BetBoom Team",
+    "dire_team": "Nigma Galaxy",
+    "actual_winner": "Radiant",
+    "duration": 1738,
+    "start_time": "2025-04-11 19:35:32"
+  },
+  {
+    "match_id": 8252809017,
+    "radiant_team": "Bright Crusaders",
+    "dire_team": "Foxy gaming",
+    "actual_winner": "Radiant",
+    "duration": 2213,
+    "start_time": "2025-04-13 05:30:22"
+  },
+  {
+    "match_id": 8252776056,
+    "radiant_team": "Foxy gaming",
+    "dire_team": "Bright Crusaders",
+    "actual_winner": "Radiant",
+    "duration": 1946,
+    "start_time": "2025-04-13 04:47:41"
+  },
+  {
+    "match_id": 8252752767,
+    "radiant_team": "Bright Crusaders",
+    "dire_team": "Foxy gaming",
+    "actual_winner": "Radiant",
+    "duration": 1505,
+    "start_time": "2025-04-13 04:15:06"
+  },
+  {
+    "match_id": 8252697513,
+    "radiant_team": "PARIVISION",
+    "dire_team": "BetBoom Team",
+    "actual_winner": "Radiant",
+    "duration": 1688,
+    "start_time": "2025-04-13 03:06:01"
+  },
+  {
+    "match_id": 8252630710,
+    "radiant_team": "PARIVISION",
+    "dire_team": "BetBoom Team",
+    "actual_winner": "Radiant",
+    "duration": 4428,
+    "start_time": "2025-04-13 01:19:15"
+  },
+  {
+    "match_id": 8252576577,
+    "radiant_team": "BetBoom Team",
+    "dire_team": "PARIVISION",
+    "actual_winner": "Radiant",
+    "duration": 3326,
+    "start_time": "2025-04-12 23:49:55"
+  },
+  {
+    "match_id": 8252515077,
+    "radiant_team": "Tundra Esports",
+    "dire_team": "Team Spirit",
+    "actual_winner": "Dire",
+    "duration": 2264,
+    "start_time": "2025-04-12 22:09:02"
+  },
+  {
+    "match_id": 8252443115,
+    "radiant_team": "Team Spirit",
+    "dire_team": "Tundra Esports",
+    "actual_winner": "Radiant",
+    "duration": 2606,
+    "start_time": "2025-04-12 20:53:01"
+  },
+  {
+    "match_id": 8252343416,
+    "radiant_team": "Air Defence",
+    "dire_team": "Romashku",
+    "actual_winner": "Dire",
+    "duration": 2254,
+    "start_time": "2025-04-12 19:14:18"
+  },
+  {
+    "match_id": 8252320232,
+    "radiant_team": "Team Spirit",
+    "dire_team": "Tundra Esports",
+    "actual_winner": "Dire",
+    "duration": 2682,
+    "start_time": "2025-04-12 19:34:48"
+  },
+  {
+    "match_id": 8252260988,
+    "radiant_team": "Romashku",
+    "dire_team": "Air Defence",
+    "actual_winner": "Radiant",
+    "duration": 2824,
+    "start_time": "2025-04-12 18:09:21"
+  },
+  {
+    "match_id": 8252150488,
+    "radiant_team": "Air Defence",
+    "dire_team": "Romashku",
+    "actual_winner": "Radiant",
+    "duration": 3255,
+    "start_time": "2025-04-12 16:50:12"
+  },
+  {
+    "match_id": 8251686994,
+    "radiant_team": "1w Team",
+    "dire_team": "Virtus.pro",
+    "actual_winner": "Dire",
+    "duration": 2568,
+    "start_time": "2025-04-12 12:04:35"
+  },
+  {
+    "match_id": 8251597258,
+    "radiant_team": "Virtus.pro",
+    "dire_team": "1w Team",
+    "actual_winner": "Radiant",
+    "duration": 3010,
+    "start_time": "2025-04-12 10:28:10"
+  },
+  {
+    "match_id": 8251494401,
+    "radiant_team": "1w Team",
+    "dire_team": "Virtus.pro",
+    "actual_winner": "Radiant",
+    "duration": 3520,
+    "start_time": "2025-04-12 09:00:20"
+  },
+  {
+    "match_id": 8251348664,
+    "radiant_team": "Foxy gaming",
+    "dire_team": "Mad Monkeys",
+    "actual_winner": "Radiant",
+    "duration": 1946,
+    "start_time": "2025-04-12 06:21:19"
+  },
+  {
+    "match_id": 8251322080,
+    "radiant_team": "Mad Monkeys",
+    "dire_team": "Foxy gaming",
+    "actual_winner": "Dire",
+    "duration": 1450,
+    "start_time": "2025-04-12 05:48:29"
+  },
+  {
+    "match_id": 8251138373,
+    "radiant_team": "PARIVISION",
+    "dire_team": "Team Liquid",
+    "actual_winner": "Radiant",
+    "duration": 1999,
+    "start_time": "2025-04-12 01:29:02"
+  },
+  {
+    "match_id": 8251103490,
+    "radiant_team": "PARIVISION",
+    "dire_team": "Team Liquid",
+    "actual_winner": "Radiant",
+    "duration": 2103,
+    "start_time": "2025-04-12 00:20:02"
+  },
+  {
+    "match_id": 8251069363,
+    "radiant_team": "Team Liquid",
+    "dire_team": "PARIVISION",
+    "actual_winner": "Radiant",
+    "duration": 2547,
+    "start_time": "2025-04-11 23:03:14"
+  },
+  {
+    "match_id": 8250760582,
+    "radiant_team": "Air Defence",
+    "dire_team": "Romashku",
+    "actual_winner": "Radiant",
+    "duration": 2540,
+    "start_time": "2025-04-11 17:54:33"
+  },
+  {
+    "timestamp": "2025-04-13 22:07:05",
+    "match_id": 8253997110,
+    "team_a": "Vitality Warriors",
+    "team_b": "HELLBEAR HEROES",
+    "team_a_heroes": [
+      35,
+      51,
+      54,
+      86,
+      98
+    ],
+    "team_b_heroes": [
+      14,
+      22,
+      48,
+      102,
+      105
+    ],
+    "actual_winner": "HELLBEAR HEROES"
+  },
+  {
+    "timestamp": "2025-04-13 22:01:35",
+    "match_id": 8253995285,
+    "team_a": "PARIVISION",
+    "team_b": "Team Spirit",
+    "team_a_heroes": [
+      16,
+      46,
+      68,
+      78,
+      131
+    ],
+    "team_b_heroes": [
+      19,
+      62,
+      75,
+      94,
+      109
+    ],
+    "actual_winner": "PARIVISION"
+  },
+  {
+    "timestamp": "2025-04-13 19:56:26",
+    "match_id": 8253889383,
+    "team_a": "Meld z zaskoczenia",
+    "team_b": "Frankfurt Beast Reborn",
+    "team_a_heroes": [
+      15,
+      21,
+      60,
+      84,
+      138
+    ],
+    "team_b_heroes": [
+      10,
+      29,
+      35,
+      43,
+      74
+    ],
+    "actual_winner": "Frankfurt Beast Reborn"
+  },
+  {
+    "timestamp": "2025-04-13 19:03:48",
+    "match_id": 8253834683,
+    "team_a": "Frankfurt Beast Reborn",
+    "team_b": "Meld z zaskoczenia",
+    "team_a_heroes": [
+      10,
+      26,
+      63,
+      96,
+      98
+    ],
+    "team_b_heroes": [
+      54,
+      81,
+      102,
+      108,
+      136
+    ],
+    "actual_winner": "Frankfurt Beast Reborn"
+  },
+  {
+    "timestamp": "2025-04-13 16:15:13",
+    "match_id": 8253623162,
+    "team_a": "Wкилеты",
+    "team_b": "BRatiKI",
+    "team_a_heroes": [
+      19,
+      21,
+      29,
+      35,
+      64
+    ],
+    "team_b_heroes": [
+      72,
+      90,
+      94,
+      106,
+      131
+    ],
+    "actual_winner": "BRatiKI"
+  },
+  {
+    "timestamp": "2025-04-13 14:56:29",
+    "match_id": 8253508795,
+    "team_a": "Bor Tactical Gaming",
+    "team_b": " Team HaliFFat",
+    "team_a_heroes": [
+      19,
+      64,
+      71,
+      77,
+      94
+    ],
+    "team_b_heroes": [
+      26,
+      53,
+      87,
+      104,
+      120
+    ],
+    "actual_winner": " Team HaliFFat"
+  },
+  {
+    "timestamp": "2025-04-13 14:50:30",
+    "match_id": 8253499480,
+    "team_a": "HIPPOMEN",
+    "team_b": "BRatiKI",
+    "team_a_heroes": [
+      39,
+      79,
+      86,
+      97,
+      99
+    ],
+    "team_b_heroes": [
+      13,
+      42,
+      44,
+      119,
+      131
+    ],
+    "actual_winner": "BRatiKI"
+  },
+  {
+    "timestamp": "2025-04-13 14:17:32",
+    "match_id": 8253446983,
+    "team_a": "SevenGaming-T",
+    "team_b": "Lazy",
+    "team_a_heroes": [
+      26,
+      35,
+      54,
+      60,
+      87
+    ],
+    "team_b_heroes": [
+      8,
+      29,
+      45,
+      49,
+      51
+    ],
+    "actual_winner": "SevenGaming-T"
+  },
+  {
+    "timestamp": "2025-04-13 13:30:10",
+    "match_id": 8253370185,
+    "team_a": "Clever moves",
+    "team_b": " Team HaliFFat",
+    "team_a_heroes": [
+      10,
+      15,
+      29,
+      51,
+      64
+    ],
+    "team_b_heroes": [
+      7,
+      14,
+      21,
+      37,
+      54
+    ],
+    "actual_winner": " Team HaliFFat"
+  },
+  {
+    "timestamp": "2025-04-13 13:27:06",
+    "match_id": 8253365256,
+    "team_a": "HIPPOMEN",
+    "team_b": "Deep Sea Predators",
+    "team_a_heroes": [
+      7,
+      73,
+      79,
+      86,
+      107
+    ],
+    "team_b_heroes": [
+      15,
+      42,
+      46,
+      64,
+      138
+    ],
+    "actual_winner": "HIPPOMEN"
+  },
+  {
+    "timestamp": "2025-04-13 13:24:53",
+    "match_id": 8253361822,
+    "team_a": "KOROLI FIDA",
+    "team_b": "TEAM EGGS",
+    "team_a_heroes": [
+      8,
+      17,
+      38,
+      64,
+      68
+    ],
+    "team_b_heroes": [
+      14,
+      44,
+      105,
+      114,
+      128
+    ],
+    "actual_winner": "KOROLI FIDA"
+  },
+  {
+    "timestamp": "2025-04-13 13:22:54",
+    "match_id": 8253358741,
+    "team_a": "Bor Tactical Gaming",
+    "team_b": "Kastrula team",
+    "team_a_heroes": [
+      38,
+      51,
+      53,
+      77,
+      102
+    ],
+    "team_b_heroes": [
+      26,
+      72,
+      75,
+      98,
+      112
+    ],
+    "actual_winner": "Bor Tactical Gaming"
+  },
+  {
+    "timestamp": "2025-04-13 12:58:15",
+    "match_id": 8253320335,
+    "team_a": "4Pirates",
+    "team_b": "Zero Tenacity",
+    "team_a_heroes": [
+      19,
+      38,
+      64,
+      96,
+      131
+    ],
+    "team_b_heroes": [
+      5,
+      21,
+      23,
+      28,
+      72
+    ],
+    "actual_winner": "4Pirates"
+  },
+  {
+    "timestamp": "2025-04-13 12:36:53",
+    "match_id": 8253287850,
+    "team_a": "TEIKO",
+    "team_b": "Elite Eclipse",
+    "team_a_heroes": [
+      13,
+      19,
+      34,
+      55,
+      93
+    ],
+    "team_b_heroes": [
+      11,
+      18,
+      51,
+      90,
+      120
+    ],
+    "actual_winner": "Elite Eclipse"
+  },
+  {
+    "timestamp": "2025-04-13 12:11:11",
+    "match_id": 8253250386,
+    "team_a": "还不走",
+    "team_b": "早睡早起",
+    "team_a_heroes": [
+      5,
+      13,
+      49,
+      60,
+      119
+    ],
+    "team_b_heroes": [
+      10,
+      55,
+      74,
+      86,
+      105
+    ],
+    "actual_winner": "还不走"
+  },
+  {
+    "timestamp": "2025-04-13 12:09:35",
+    "match_id": 8253248072,
+    "team_a": "HIPPOMEN",
+    "team_b": "DF VA MVD",
+    "team_a_heroes": [
+      47,
+      49,
+      60,
+      64,
+      86
+    ],
+    "team_b_heroes": [
+      8,
+      76,
+      87,
+      108,
+      112
+    ],
+    "actual_winner": "HIPPOMEN"
+  },
+  {
+    "timestamp": "2025-04-13 12:08:11",
+    "match_id": 8253246071,
+    "team_a": "Team Casual",
+    "team_b": "Wкилеты",
+    "team_a_heroes": [
+      46,
+      61,
+      75,
+      86,
+      129
+    ],
+    "team_b_heroes": [
+      21,
+      42,
+      64,
+      106,
+      135
+    ],
+    "actual_winner": "Wкилеты"
+  },
+  {
+    "timestamp": "2025-04-13 12:02:46",
+    "match_id": 8253238487,
+    "team_a": "Order of the Night",
+    "team_b": "Тейко",
+    "team_a_heroes": [
+      7,
+      54,
+      87,
+      96,
+      98
+    ],
+    "team_b_heroes": [
+      18,
+      34,
+      37,
+      38,
+      63
+    ],
+    "actual_winner": "Тейко"
+  },
+  {
+    "timestamp": "2025-04-13 12:00:15",
+    "match_id": 8253227408,
+    "team_a": "4Pirates",
+    "team_b": "Zero Tenacity",
+    "team_a_heroes": [
+      23,
+      29,
+      53,
+      64,
+      75
+    ],
+    "team_b_heroes": [
+      21,
+      28,
+      37,
+      44,
+      99
+    ],
+    "actual_winner": "Zero Tenacity"
+  },
+  {
+    "timestamp": "2025-04-13 11:23:58",
+    "match_id": 8253186202,
+    "team_a": "Elite Eclipse",
+    "team_b": "Teiko",
+    "team_a_heroes": [
+      15,
+      52,
+      71,
+      94,
+      119
+    ],
+    "team_b_heroes": [
+      13,
+      49,
+      63,
+      75,
+      97
+    ],
+    "actual_winner": "Teiko"
+  },
+  {
+    "timestamp": "2025-04-13 11:19:22",
+    "match_id": 8253178349,
+    "team_a": "早睡早起",
+    "team_b": "还不走",
+    "team_a_heroes": [
+      10,
+      38,
+      79,
+      105,
+      120
+    ],
+    "team_b_heroes": [
+      26,
+      40,
+      42,
+      72,
+      76
+    ],
+    "actual_winner": "早睡早起"
+  },
+  {
+    "timestamp": "2025-04-13 07:42:54",
+    "match_id": 8252930709,
+    "team_a": "Shadow Avengers",
+    "team_b": "Dragon Blood",
+    "team_a_heroes": [
+      9,
+      19,
+      22,
+      48,
+      98
+    ],
+    "team_b_heroes": [
+      15,
+      53,
+      84,
+      106,
+      109
+    ],
+    "actual_winner": "Dragon Blood"
+  },
+  {
+    "timestamp": "2025-04-13 07:17:10",
+    "match_id": 8252904847,
+    "team_a": "Teiko",
+    "team_b": "Dominion",
+    "team_a_heroes": [
+      19,
+      21,
+      34,
+      71,
+      91
+    ],
+    "team_b_heroes": [
+      2,
+      5,
+      60,
+      93,
+      120
+    ],
+    "actual_winner": "Teiko"
+  },
+  {
+    "timestamp": "2025-04-13 06:16:24",
+    "match_id": 8252847814,
+    "team_a": "Dominion",
+    "team_b": "Teiko",
+    "team_a_heroes": [
+      2,
+      35,
+      71,
+      75,
+      136
+    ],
+    "team_b_heroes": [
+      34,
+      43,
+      49,
+      52,
+      135
+    ],
+    "actual_winner": "Dominion"
+  },
+  {
+    "timestamp": "2025-04-13 05:28:10",
+    "match_id": 8252806536,
+    "team_a": "Teiko",
+    "team_b": "Dominion",
+    "team_a_heroes": [
+      48,
+      91,
+      100,
+      128,
+      129
+    ],
+    "team_b_heroes": [
+      21,
+      49,
+      60,
+      75,
+      106
+    ],
+    "actual_winner": "Teiko"
+  },
+  {
+    "timestamp": "2025-04-12 18:24:27",
+    "match_id": 8252279004,
+    "team_a": "Team Poteryshka",
+    "team_b": "Ni.VI",
+    "team_a_heroes": [
+      37,
+      49,
+      74,
+      107,
+      111
+    ],
+    "team_b_heroes": [
+      22,
+      42,
+      64,
+      90,
+      104
+    ],
+    "actual_winner": "Ni.VI"
+  },
+  {
+    "timestamp": "2025-04-12 15:13:24",
+    "match_id": 8252008025,
+    "team_a": "Prodigy of God",
+    "team_b": "Shinigami Gaming",
+    "team_a_heroes": [
+      38,
+      68,
+      74,
+      109,
+      138
+    ],
+    "team_b_heroes": [
+      2,
+      39,
+      44,
+      60,
+      131
+    ],
+    "actual_winner": "Prodigy of God"
+  },
+  {
+    "timestamp": "2025-04-12 15:05:02",
+    "match_id": 8251993176,
+    "team_a": "Ni.VI",
+    "team_b": "Arrancars",
+    "team_a_heroes": [
+      14,
+      55,
+      84,
+      90,
+      91
+    ],
+    "team_b_heroes": [
+      10,
+      17,
+      31,
+      64,
+      98
+    ],
+    "actual_winner": "Ni.VI"
+  },
+  {
+    "timestamp": "2025-04-12 14:08:53",
+    "match_id": 8251903286,
+    "team_a": "Mine GG Soo BiGggggg！",
+    "team_b": "帅的惊动D",
+    "team_a_heroes": [
+      6,
+      26,
+      68,
+      96,
+      107
+    ],
+    "team_b_heroes": [
+      29,
+      30,
+      46,
+      71,
+      102
+    ],
+    "actual_winner": "Mine GG Soo BiGggggg！"
+  },
+  {
+    "timestamp": "2025-04-12 13:20:39",
+    "match_id": 8251825913,
+    "team_a": "龙律队",
+    "team_b": "还不走",
+    "team_a_heroes": [
+      32,
+      69,
+      87,
+      93,
+      138
+    ],
+    "team_b_heroes": [
+      31,
+      46,
+      70,
+      121,
+      129
+    ],
+    "actual_winner": "龙律队"
+  },
+  {
+    "timestamp": "2025-04-12 13:02:11",
+    "match_id": 8251797616,
+    "team_a": "one two three",
+    "team_b": "WolfSmash.Gaming",
+    "team_a_heroes": [
+      41,
+      52,
+      85,
+      87,
+      129
+    ],
+    "team_b_heroes": [
+      48,
+      51,
+      55,
+      64,
+      106
+    ],
+    "actual_winner": "WolfSmash.Gaming"
+  },
+  {
+    "timestamp": "2025-04-12 13:01:55",
+    "match_id": 8251795377,
+    "team_a": "Zero Tenacity",
+    "team_b": "Team Lynx",
+    "team_a_heroes": [
+      13,
+      19,
+      33,
+      64,
+      100
+    ],
+    "team_b_heroes": [
+      10,
+      21,
+      23,
+      29,
+      68
+    ],
+    "actual_winner": "Team Lynx"
+  },
+  {
+    "timestamp": "2025-04-12 12:53:30",
+    "match_id": 8251781597,
+    "team_a": "躺赢狗战队",
+    "team_b": "SevenGaming-A",
+    "team_a_heroes": [
+      19,
+      22,
+      51,
+      54,
+      98
+    ],
+    "team_b_heroes": [
+      31,
+      42,
+      43,
+      108,
+      131
+    ],
+    "actual_winner": "躺赢狗战队"
+  },
+  {
+    "timestamp": "2025-04-12 12:46:12",
+    "match_id": 8251772905,
+    "team_a": "Ghost Sheep",
+    "team_b": "Nethercore",
+    "team_a_heroes": [
+      11,
+      20,
+      22,
+      30,
+      60
+    ],
+    "team_b_heroes": [
+      21,
+      35,
+      42,
+      68,
+      135
+    ],
+    "actual_winner": "Ghost Sheep"
+  },
+  {
+    "timestamp": "2025-04-13 23:08:54",
+    "match_id": 8254032946,
+    "team_a": "Team Spirit",
+    "team_b": "PARIVISION",
+    "team_a_heroes": [
+      16,
+      19,
+      34,
+      52,
+      121
+    ],
+    "team_b_heroes": [
+      38,
+      93,
+      94,
+      105,
+      114
+    ],
+    "actual_winner": "Team Spirit"
+  },
+  {
+    "timestamp": "2025-04-13 23:38:00",
+    "match_id": 8254044543,
+    "team_a": "REAL ECLIPSE",
+    "team_b": "Moonwalkers",
+    "team_a_heroes": [
+      14,
+      16,
+      46,
+      95,
+      128
+    ],
+    "team_b_heroes": [
+      42,
+      75,
+      102,
+      111,
+      126
+    ],
+    "actual_winner": "REAL ECLIPSE"
+  },
+  {
+    "timestamp": "2025-04-14 09:58:35",
+    "match_id": 8254387687,
+    "team_a": "FenixTeam",
+    "team_b": "BulletProofs",
+    "team_a_heroes": [
+      18,
+      40,
+      43,
+      96,
+      111
+    ],
+    "team_b_heroes": [
+      26,
+      91,
+      97,
+      136,
+      138
+    ],
+    "actual_winner": "BulletProofs"
+  },
+  {
+    "timestamp": "2025-04-14 08:37:30",
+    "match_id": 8254331463,
+    "team_a": "Nethercore",
+    "team_b": "Business Club",
+    "team_a_heroes": [
+      16,
+      27,
+      52,
+      94,
+      119
+    ],
+    "team_b_heroes": [
+      23,
+      46,
+      84,
+      86,
+      108
+    ],
+    "actual_winner": "Nethercore"
+  },
+  {
+    "timestamp": "2025-04-14 08:11:56",
+    "match_id": 8254314393,
+    "team_a": "Flawless Goblins",
+    "team_b": "Dragon Blood",
+    "team_a_heroes": [
+      11,
+      21,
+      44,
+      86,
+      114
+    ],
+    "team_b_heroes": [
+      14,
+      18,
+      53,
+      76,
+      84
+    ],
+    "actual_winner": "Flawless Goblins"
+  },
+  {
+    "timestamp": "2025-04-14 07:43:20",
+    "match_id": 8254295052,
+    "team_a": "Business Club",
+    "team_b": "Nethercore",
+    "team_a_heroes": [
+      19,
+      26,
+      49,
+      90,
+      120
+    ],
+    "team_b_heroes": [
+      21,
+      70,
+      75,
+      114,
+      129
+    ],
+    "actual_winner": "Nethercore"
+  },
+  {
+    "timestamp": "2025-04-14 06:36:06",
+    "match_id": 8254256227,
+    "team_a": "Nethercore",
+    "team_b": "Eуе Gaming",
+    "team_a_heroes": [
+      28,
+      44,
+      63,
+      71,
+      77
+    ],
+    "team_b_heroes": [
+      23,
+      60,
+      75,
+      89,
+      131
+    ],
+    "actual_winner": "Eуе Gaming"
+  },
+  {
+    "timestamp": "2025-04-14 06:20:59",
+    "match_id": 8254247760,
+    "team_a": "RuleBreakers",
+    "team_b": "Lucky Bulldogs",
+    "team_a_heroes": [
+      16,
+      26,
+      81,
+      85,
+      129
+    ],
+    "team_b_heroes": [
+      22,
+      27,
+      65,
+      72,
+      104
+    ],
+    "actual_winner": "Lucky Bulldogs"
+  },
+  {
+    "timestamp": "2025-04-14 06:10:55",
+    "match_id": 8254242142,
+    "team_a": "Mad Monkeys",
+    "team_b": "Bright Crusaders",
+    "team_a_heroes": [
+      4,
+      5,
+      11,
+      14,
+      49
+    ],
+    "team_b_heroes": [
+      44,
+      61,
+      64,
+      86,
+      105
+    ],
+    "actual_winner": "Mad Monkeys"
+  },
+  {
+    "timestamp": "2025-04-14 04:49:01",
+    "match_id": 8254199529,
+    "team_a": "Ninja Bros",
+    "team_b": "Lighting Legends",
+    "team_a_heroes": [
+      28,
+      54,
+      101,
+      120,
+      131
+    ],
+    "team_b_heroes": [
+      2,
+      35,
+      44,
+      71,
+      86
+    ],
+    "actual_winner": "Ninja Bros"
+  },
+  {
+    "timestamp": "2025-04-14 04:46:51",
+    "match_id": 8254198634,
+    "team_a": "Swift Knights",
+    "team_b": "Shadow Avengers",
+    "team_a_heroes": [
+      8,
+      68,
+      91,
+      103,
+      120
+    ],
+    "team_b_heroes": [
+      19,
+      37,
+      38,
+      53,
+      110
+    ],
+    "actual_winner": "Swift Knights"
+  },
+  {
+    "timestamp": "2025-04-14 04:05:21",
+    "match_id": 8254173312,
+    "team_a": "Lighting Legends",
+    "team_b": "Ninja Bros",
+    "team_a_heroes": [
+      28,
+      35,
+      44,
+      86,
+      111
+    ],
+    "team_b_heroes": [
+      42,
+      71,
+      75,
+      102,
+      106
+    ],
+    "actual_winner": "Lighting Legends"
+  },
+  {
+    "timestamp": "2025-04-14 01:00:54",
+    "match_id": 8254083847,
+    "team_a": "Wild Dragon",
+    "team_b": "TOXIC TEAM",
+    "team_a_heroes": [
+      46,
+      68,
+      69,
+      70,
+      86
+    ],
+    "team_b_heroes": [
+      26,
+      38,
+      48,
+      91,
+      94
+    ],
+    "actual_winner": "Wild Dragon"
+  }
+]

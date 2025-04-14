@@ -1,0 +1,79 @@
+timestamp,match_id,team_a,team_b,team_a_heroes,team_b_heroes,actual_winner
+2025-04-13 22:07:05,8253997110,Vitality Warriors,HELLBEAR HEROES,"[35, 51, 54, 86, 98]","[14, 22, 48, 102, 105]",HELLBEAR HEROES
+2025-04-13 22:01:35,8253995285,PARIVISION,Team Spirit,"[16, 46, 68, 78, 131]","[19, 62, 75, 94, 109]",PARIVISION
+2025-04-13 21:23:31,8253968397,Silent killer,Night Vision,,,Silent killer
+2025-04-13 20:59:08,8253950663,PARIVISION,Team Spirit,,,PARIVISION
+2025-04-13 20:37:36,8253931918,Night Vision,Silent killer,,,Silent killer
+2025-04-13 20:00:40,8253892469,Silent killer,Night Vision,,,Night Vision
+2025-04-13 18:00:04,8253754681,PARIVISION,Tundra Esports,,,PARIVISION
+2025-04-13 17:33:04,8253706734,Xtreme Gaming,Virtus.pro,,,Xtreme Gaming
+2025-04-13 17:00:00,8253666074,PARIVISION,Tundra Esports,,,PARIVISION
+2025-04-13 16:33:05,8253643707,Xtreme Gaming,Virtus.pro,,,Xtreme Gaming
+2025-04-13 15:59:15,8253576449,Tundra Esports,PARIVISION,,,Tundra Esports
+2025-04-13 15:34:18,8253553033,Xtreme Gaming,Virtus.pro,,,Virtus.pro
+2025-04-13 15:05:30,8253522675,4Pirates,Zero Tenacity,,,4Pirates
+2025-04-13 14:56:29,8253508795,Bor Tactical Gaming, Team HaliFFat,"[19, 64, 71, 77, 94]","[26, 53, 87, 104, 120]", Team HaliFFat
+2025-04-13 14:17:48,8253440364,Xtreme Gaming,Virtus.pro,,,Xtreme Gaming
+2025-04-13 14:00:34,8253402314,4Pirates,Zero Tenacity,,,4Pirates
+2025-04-13 13:30:10,8253370185,Clever moves, Team HaliFFat,"[10, 15, 29, 51, 64]","[7, 14, 21, 37, 54]", Team HaliFFat
+2025-04-13 13:28:15,8253367125,Elite Eclipse,Teiko,,,Teiko
+2025-04-13 13:22:54,8253358741,Bor Tactical Gaming,Kastrula team,"[38, 51, 53, 77, 102]","[26, 72, 75, 98, 112]",Bor Tactical Gaming
+2025-04-13 13:00:11,8253312968,Virtus.pro,Xtreme Gaming,,,Virtus.pro
+2025-04-13 12:58:15,8253320335,4Pirates,Zero Tenacity,"[19, 38, 64, 96, 131]","[5, 21, 23, 28, 72]",4Pirates
+2025-04-13 12:36:53,8253287850,TEIKO,Elite Eclipse,"[13, 19, 34, 55, 93]","[11, 18, 51, 90, 120]",Elite Eclipse
+2025-04-13 12:00:15,8253227408,4Pirates,Zero Tenacity,"[23, 29, 53, 64, 75]","[21, 28, 37, 44, 99]",Zero Tenacity
+2025-04-13 11:23:58,8253186202,Elite Eclipse,Teiko,"[15, 52, 71, 94, 119]","[13, 49, 63, 75, 97]",Teiko
+2025-04-13 10:21:29,8253110385,Romashku,Nethercore,,,Romashku
+2025-04-13 10:15:22,8253095069,Virtus.pro,L1GA TEAM,,,Virtus.pro
+2025-04-13 09:57:26,8253082140,BloodyRose,Ghost Sheep,,,Ghost Sheep
+2025-04-13 09:56:22,8253080409,Mad Monkeys,Dark Rebellion,,,Dark Rebellion
+2025-04-13 09:23:02,8253042214,Ghost Sheep,BloodyRose,,,Ghost Sheep
+2025-04-13 09:18:28,8253037514,Nethercore,Romashku,,,Nethercore
+2025-04-13 09:10:51,8253027523,Dark Rebellion,Mad Monkeys,,,Dark Rebellion
+2025-04-13 09:02:55,8253009800,L1GA TEAM,Virtus.pro,,,Virtus.pro
+2025-04-13 08:21:45,8252972710,Dragon Blood,Shadow Avengers,,,Dragon Blood
+2025-04-13 08:09:27,8252958766,Romashku,Nethercore,,,Romashku
+2025-04-13 07:42:54,8252930709,Shadow Avengers,Dragon Blood,"[9, 19, 22, 48, 98]","[15, 53, 84, 106, 109]",Dragon Blood
+2025-04-13 07:17:10,8252904847,Teiko,Dominion,"[19, 21, 34, 71, 91]","[2, 5, 60, 93, 120]",Teiko
+2025-04-13 06:59:37,8252887160,Flawless Goblins,Wiser Warriors,,,Wiser Warriors
+2025-04-13 06:18:51,8252849583,Wiser Warriors,Flawless Goblins,,,Wiser Warriors
+2025-04-13 06:16:24,8252847814,Dominion,Teiko,"[2, 35, 71, 75, 136]","[34, 43, 49, 52, 135]",Dominion
+2025-04-13 05:30:22,8252809017,Bright Crusaders,Foxy gaming,,,Bright Crusaders
+2025-04-13 05:28:10,8252806536,Teiko,Dominion,"[48, 91, 100, 128, 129]","[21, 49, 60, 75, 106]",Teiko
+2025-04-13 04:47:41,8252776056,Foxy gaming,Bright Crusaders,,,Foxy gaming
+2025-04-13 04:15:06,8252752767,Bright Crusaders,Foxy gaming,,,Bright Crusaders
+2025-04-13 03:06:01,8252697513,PARIVISION,BetBoom Team,,,PARIVISION
+2025-04-13 01:19:15,8252630710,PARIVISION,BetBoom Team,,,PARIVISION
+2025-04-12 23:49:55,8252576577,BetBoom Team,PARIVISION,,,BetBoom Team
+2025-04-12 22:09:02,8252515077,Tundra Esports,Team Spirit,,,Team Spirit
+2025-04-12 20:53:01,8252443115,Team Spirit,Tundra Esports,,,Team Spirit
+2025-04-12 19:34:48,8252320232,Team Spirit,Tundra Esports,,,Tundra Esports
+2025-04-12 19:14:18,8252343416,Air Defence,Romashku,,,Romashku
+2025-04-12 18:09:21,8252260988,Romashku,Air Defence,,,Romashku
+2025-04-12 17:06:00,8252155975,BetBoom Team,Team Falcons,,,BetBoom Team
+2025-04-12 16:50:12,8252150488,Air Defence,Romashku,,,Air Defence
+2025-04-12 16:00:13,8252042601,BetBoom Team,Team Falcons,,,BetBoom Team
+2025-04-12 15:57:03,8252074075,Shinigami Gaming,Prodigy of God,,,Shinigami Gaming
+2025-04-12 15:10:37,8251988181,Zero Tenacity,Team Lynx,,,Zero Tenacity
+2025-04-12 14:21:18,8251909495,L1GA TEAM,Xtreme Gaming,,,Xtreme Gaming
+2025-04-12 14:09:16,8251903913,Zero Tenacity,Team Lynx,,,Zero Tenacity
+2025-04-12 13:29:09,8251823901,Xtreme Gaming,L1GA TEAM,,,Xtreme Gaming
+2025-04-12 13:01:55,8251795377,Zero Tenacity,Team Lynx,"[13, 19, 33, 64, 100]","[10, 21, 23, 29, 68]",Team Lynx
+2025-04-12 12:46:12,8251772905,Ghost Sheep,Nethercore,"[11, 20, 22, 30, 60]","[21, 35, 42, 68, 135]",Ghost Sheep
+2025-04-12 12:04:35,8251686994,1w Team,Virtus.pro,,,Dire
+2025-04-12 10:28:10,8251597258,Virtus.pro,1w Team,,,Radiant
+2025-04-12 09:53:14,8251562061,Air Defence,Nethercore,,,Dire
+2025-04-12 09:34:08,8251540421,Shadow Avengers,Wiser Warriors,,,Radiant
+2025-04-12 09:00:20,8251494401,1w Team,Virtus.pro,,,Radiant
+2025-04-12 08:39:39,8251478138,Wiser Warriors,Shadow Avengers,,,Dire
+2025-04-12 08:34:59,8251476597,Nethercore,Air Defence,,,Radiant
+2025-04-12 07:50:10,8251431694,LSG,Bright Crusaders,,,Radiant
+2025-04-12 07:09:44,8251390578,Bright Crusaders,LSG,,,Dire
+2025-04-12 06:21:19,8251348664,Foxy gaming,Mad Monkeys,,,Radiant
+2025-04-12 05:48:29,8251322080,Mad Monkeys,Foxy gaming,,,Dire
+2025-04-12 01:29:02,8251138373,PARIVISION,Team Liquid,,,Radiant
+2025-04-12 00:20:02,8251103490,PARIVISION,Team Liquid,,,Radiant
+2025-04-11 23:03:14,8251069363,Team Liquid,PARIVISION,,,Radiant
+2025-04-11 20:37:02,8250942550,Nigma Galaxy,BetBoom Team,,,Dire
+2025-04-11 19:35:32,8250853805,BetBoom Team,Nigma Galaxy,,,Radiant
+2025-04-11 17:54:33,8250760582,Air Defence,Romashku,,,Radiant

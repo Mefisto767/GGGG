@@ -1,0 +1,7 @@
+data_sources:
+  dotabuff_url: "https://www.dotabuff.com"
+  liquipedia_url: "https://liquipedia.net/dota2"
+database:
+  path: "./db/cyberbot.db"
+ml:
+  model_path: "./predictor/model.pkl"
