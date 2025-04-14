@@ -1624,5 +1624,131 @@
       138
     ],
     "actual_winner": "BloodyRose"
+  },
+  {
+    "timestamp": "2025-04-14 19:04:13",
+    "match_id": 8255029783,
+    "team_a": "Frankfurt Beast Reborn",
+    "team_b": "polish rejects",
+    "team_a_heroes": [
+      10,
+      21,
+      26,
+      67,
+      104
+    ],
+    "team_b_heroes": [
+      14,
+      46,
+      53,
+      64,
+      86
+    ],
+    "actual_winner": "polish rejects"
+  },
+  {
+    "timestamp": "2025-04-14 18:07:00",
+    "match_id": 8254963315,
+    "team_a": "Bociarnia",
+    "team_b": "Poland",
+    "team_a_heroes": [
+      7,
+      55,
+      100,
+      109,
+      138
+    ],
+    "team_b_heroes": [
+      10,
+      16,
+      17,
+      64,
+      79
+    ],
+    "actual_winner": "Poland"
+  },
+  {
+    "timestamp": "2025-04-14 18:02:13",
+    "match_id": 8254960356,
+    "team_a": "tam_sme",
+    "team_b": "TRENDISTITE",
+    "team_a_heroes": [
+      11,
+      42,
+      68,
+      71,
+      90
+    ],
+    "team_b_heroes": [
+      21,
+      55,
+      76,
+      92,
+      100
+    ],
+    "actual_winner": "tam_sme"
+  },
+  {
+    "timestamp": "2025-04-14 17:28:25",
+    "match_id": 8254920393,
+    "team_a": "52turbo",
+    "team_b": "Purple rush",
+    "team_a_heroes": [
+      33,
+      34,
+      46,
+      68,
+      137
+    ],
+    "team_b_heroes": [
+      37,
+      54,
+      63,
+      74,
+      99
+    ],
+    "actual_winner": "52turbo"
+  },
+  {
+    "timestamp": "2025-04-14 17:16:53",
+    "match_id": 8254907140,
+    "team_a": "TRENDISTITE",
+    "team_b": "tam_sme",
+    "team_a_heroes": [
+      25,
+      38,
+      49,
+      64,
+      90
+    ],
+    "team_b_heroes": [
+      23,
+      41,
+      68,
+      75,
+      114
+    ],
+    "actual_winner": "tam_sme"
+  },
+  {
+    "timestamp": "2025-04-14 17:10:13",
+    "match_id": 8254897812,
+    "team_a": "hidden pool",
+    "team_b": "Creative Team",
+    "team_a_heroes": [
+      19,
+      27,
+      54,
+      106,
+      135
+    ],
+    "team_b_heroes": [
+      15,
+      31,
+      74,
+      131,
+      138
+    ],
+    "actual_winner": "Creative Team"
   }
 ]

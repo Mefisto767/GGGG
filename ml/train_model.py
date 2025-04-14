@@ -22,48 +22,46 @@ def safe_eval(val):
 
 def load_and_prepare_data(path):
     df = pd.read_csv(path)
-    print(f"📦 Загрузка и подготовка данных...")
     print(f"🔍 Все строки: {len(df)}")
 
-    # Создание финального столбца победителя
-    df["actual_winner"] = df["actual_winner_x"].combine_first(df["actual_winner_y"])
+    team_a_col, team_b_col = "team_a", "team_b"
+    heroes_a_col, heroes_b_col = "team_a_heroes", "team_b_heroes"
 
-    # Преобразование строк в списки героев
-    df["team_a_heroes"] = df["team_a_heroes"].apply(safe_eval)
-    df["team_b_heroes"] = df["team_b_heroes"].apply(safe_eval)
+    df[heroes_a_col] = df[heroes_a_col].apply(safe_eval)
+    df[heroes_b_col] = df[heroes_b_col].apply(safe_eval)
 
-    # Фильтрация по героям
-    df = df[df["team_a_heroes"].apply(lambda x: isinstance(x, list) and len(x) == 5)]
-    df = df[df["team_b_heroes"].apply(lambda x: isinstance(x, list) and len(x) == 5)]
+    df = df[df[heroes_a_col].apply(lambda x: isinstance(x, list) and len(x) == 5)]
+    df = df[df[heroes_b_col].apply(lambda x: isinstance(x, list) and len(x) == 5)]
     print(f"✅ Строк с валидными героями: {len(df)}")
 
-    # Удаление строк с пропущенными значениями
-    df = df.dropna(subset=["team_a", "team_b", "actual_winner"])
+    df = df.dropna(subset=["actual_winner"])
     print(f"✅ После dropna: {len(df)}")
 
-    # Проверка, что победитель входит в одну из команд
-    df = df[df.apply(lambda row: row["actual_winner"] in [row["team_a"], row["team_b"]], axis=1)]
+    df = df[df["actual_winner"].isin(df[team_a_col]) | df["actual_winner"].isin(df[team_b_col])]
     print(f"✅ Победитель входит в команду: {len(df)}")
 
     if len(df) == 0:
-        print("❌ Недостаточно данных для обучения.")
-        return None, None, None, None, df, None, None
+        return None, None, None, None, df, heroes_a_col, heroes_b_col
 
-    X = df[["team_a", "team_b"]]
+    X_cats = df[[team_a_col, team_b_col]]
+    encoder = OneHotEncoder(handle_unknown='ignore')
+    X_encoded = encoder.fit_transform(X_cats)
+    feature_names = encoder.get_feature_names_out([team_a_col, team_b_col])
+
+    extra_features = df[["team_a_power", "team_b_power", "team_a_synergy", "team_b_synergy"]].fillna(0)
+    X_final = np.hstack([X_encoded.toarray(), extra_features.to_numpy()])
     y = df["actual_winner"]
 
-    encoder = OneHotEncoder(handle_unknown='ignore')
-    X_encoded = encoder.fit_transform(X)
-    feature_names = encoder.get_feature_names_out(["team_a", "team_b"])
-
-    return X_encoded, y, encoder, feature_names, df, "team_a_heroes", "team_b_heroes"
+    return X_final, y, encoder, feature_names, df, heroes_a_col, heroes_b_col
 
 
 def train_model(csv_path=None):
+    print("📦 Загрузка и подготовка данных...")
     csv_path = csv_path or CSV_PATH
-    X, y, encoder, feature_names, df, heroes_a_col, heroes_b_col = load_and_prepare_data(csv_path)
+    X, y, encoder, feature_names, df, ha, hb = load_and_prepare_data(csv_path)
 
-    if X is None or X.shape[0] == 0 or len(y) == 0:
+    if X is None or len(y) == 0:
+        print("❌ Недостаточно данных для обучения.")
         return
 
     print(f"📊 Обучение на {X.shape[0]} матчах.")
@@ -78,8 +76,8 @@ def train_model(csv_path=None):
     print(f"Всего матчей в обучении: {len(df)}")
     print(f"Команд-победителей: {sum(y == df['team_a']) + sum(y == df['team_b'])}")
     print(f"Мин. уверенность (на обучении): {np.min(model.predict_proba(X).max(axis=1)):.2f}")
-    print(f"Средняя мощь команд: A={df[heroes_a_col].apply(lambda x: np.mean(x) if x else 0).mean():.1f}, "
-          f"B={df[heroes_b_col].apply(lambda x: np.mean(x) if x else 0).mean():.1f}")
+    print(f"Средняя мощь команд: A={df[ha].apply(lambda x: np.mean(x)).mean():.1f}, "
+          f"B={df[hb].apply(lambda x: np.mean(x)).mean():.1f}")
 
 
 if __name__ == "__main__":

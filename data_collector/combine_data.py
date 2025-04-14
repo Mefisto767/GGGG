@@ -1,46 +1,61 @@
 import os
 import json
 import pandas as pd
+import joblib
+from ml.features.hero_stats import get_team_power, get_team_synergy
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-LOG_PATH = os.path.join(BASE_DIR, "..", "logs", "match_log.csv")
-JSON_PATH = os.path.join(BASE_DIR, "matches.json")
-OUT_PATH = os.path.join(BASE_DIR, "combined_matches.csv")
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+JSON_PATH = os.path.join(PROJECT_ROOT, "data_collector", "match_log.json")
+CSV_PATH = os.path.join(PROJECT_ROOT, "data_collector", "match_log.csv")
+OUT_PATH = os.path.join(PROJECT_ROOT, "data_collector", "combined_matches.csv")
 
-print("📥 Загрузка CSV и JSON...")
-
-df_log = pd.read_csv(LOG_PATH) if os.path.exists(LOG_PATH) else pd.DataFrame()
-json_df = pd.DataFrame()
-
-if os.path.exists(JSON_PATH):
+def load_json():
     with open(JSON_PATH, "r", encoding="utf-8") as f:
-        matches = json.load(f)
-    json_df = pd.DataFrame(matches)
+        return json.load(f)
 
-    # Normalize winner
-    json_df["actual_winner"] = json_df.apply(
-        lambda row: row["radiant_team"] if row["actual_winner"] == "Radiant" else row["dire_team"],
-        axis=1
-    )
+def load_csv():
+    return pd.read_csv(CSV_PATH)
 
-    json_df = json_df[["match_id", "actual_winner", "team_a_heroes", "team_b_heroes"]]
+def safe_eval(val):
+    try:
+        return eval(val) if isinstance(val, str) and val.startswith("[") else []
+    except:
+        return []
 
-# Merge if log not empty
-if not df_log.empty:
-    df_combined = df_log.copy()
+def main():
+    print("📥 Загрузка CSV и JSON...")
 
-    if not json_df.empty:
-        df_combined = df_combined.merge(json_df, on="match_id", how="left", suffixes=("", "_json"))
+    json_data = load_json()
+    csv_data = load_csv()
 
-        for col in ["actual_winner", "team_a_heroes", "team_b_heroes"]:
-            json_col = f"{col}_json"
-            if json_col in df_combined.columns:
-                df_combined[col] = df_combined[col].combine_first(df_combined[json_col])
-                df_combined.drop(columns=[json_col], inplace=True)
+    df_json = pd.DataFrame(json_data)
+    df_csv = csv_data
 
-else:
-    df_combined = json_df.copy()
+    combined_df = pd.concat([df_csv, df_json], ignore_index=True)
+    combined_df = combined_df.drop_duplicates(subset=["match_id"], keep="last")
 
-print("💾 Сохранение...")
-df_combined.to_csv(OUT_PATH, index=False, encoding="utf-8")
-print(f"✅ Объединённый файл сохранён в {OUT_PATH}")
+    combined_df["team_a_heroes"] = combined_df["team_a_heroes"].apply(safe_eval)
+    combined_df["team_b_heroes"] = combined_df["team_b_heroes"].apply(safe_eval)
+
+    hero_power = joblib.load(os.path.join(PROJECT_ROOT, "ml", "data", "hero_power.pkl"))
+    hero_synergy = joblib.load(os.path.join(PROJECT_ROOT, "ml", "data", "hero_synergy.pkl"))
+
+    def enrich(row):
+        a = row.get("team_a_heroes", [])
+        b = row.get("team_b_heroes", [])
+        return pd.Series({
+            "team_a_power": get_team_power(a, hero_power),
+            "team_b_power": get_team_power(b, hero_power),
+            "team_a_synergy": get_team_synergy(a, hero_synergy),
+            "team_b_synergy": get_team_synergy(b, hero_synergy),
+        })
+
+    enriched = combined_df.apply(enrich, axis=1)
+    combined_df = pd.concat([combined_df, enriched], axis=1)
+
+    print("💾 Сохранение...")
+    combined_df.to_csv(OUT_PATH, index=False, encoding="utf-8-sig")
+    print(f"✅ Объединённый файл сохранён в {OUT_PATH}")
+
+if __name__ == "__main__":
+    main()
