@@ -1,3 +1,5 @@
+# ml/tools/rebuild_from_json.py
+
 import os
 import json
 import pandas as pd
@@ -30,16 +32,17 @@ def rebuild_from_json():
         return False
 
     df = pd.DataFrame([{
-        'team_a': m['radiant_team'],
-        'team_b': m['dire_team'],
-        'actual_winner': m['radiant_team'] if m['actual_winner'] == 'Radiant' else m['dire_team']
-    } for m in matches])
+        'team_a': m.get('radiant_team'),
+        'team_b': m.get('dire_team'),
+        'actual_winner': 'Radiant' if m.get('actual_winner') == m.get('radiant_team') else 'Dire',
+        'team_a_heroes': m.get('team_a_heroes', []),
+        'team_b_heroes': m.get('team_b_heroes', [])
+    } for m in matches if m.get('radiant_team') and m.get('dire_team')])
 
     os.makedirs(os.path.dirname(NEW_MATCHES_CSV), exist_ok=True)
     df.to_csv(NEW_MATCHES_CSV, index=False, encoding='utf-8')
     logger.info(f"✅ CSV сохранён: {NEW_MATCHES_CSV} ({len(df)} матчей)")
 
-    # Очистка JSON
     with open(NEW_MATCHES_JSON, 'w', encoding='utf-8') as f:
         json.dump([], f)
         logger.info("🧹 new_matches.json очищен.")

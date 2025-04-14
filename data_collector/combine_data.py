@@ -1,71 +1,46 @@
 import os
-import pandas as pd
 import json
+import pandas as pd
 
-CSV_PATH = os.path.join(os.path.dirname(__file__), "..", "data_collector", "match_log.csv")
-JSON_PATH = os.path.join(os.path.dirname(__file__), "..", "data_collector", "matches.json")
-OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "..", "data_collector", "combined_matches.csv")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+LOG_PATH = os.path.join(BASE_DIR, "..", "logs", "match_log.csv")
+JSON_PATH = os.path.join(BASE_DIR, "matches.json")
+OUT_PATH = os.path.join(BASE_DIR, "combined_matches.csv")
 
-def load_csv(path: str) -> pd.DataFrame:
-    if not os.path.exists(path):
-        print(f"❌ CSV файл не найден: {path}")
-        return pd.DataFrame()
-    print("✅ CSV загружен")
-    return pd.read_csv(path)
+print("📥 Загрузка CSV и JSON...")
 
-def load_json(path: str) -> pd.DataFrame:
-    if not os.path.exists(path):
-        print(f"❌ JSON файл не найден: {path}")
-        return pd.DataFrame()
-    print("✅ JSON загружен")
-    with open(path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-    return pd.DataFrame(data)
+df_log = pd.read_csv(LOG_PATH) if os.path.exists(LOG_PATH) else pd.DataFrame()
+json_df = pd.DataFrame()
 
-def combine_columns(df, col1, col2, out_col):
-    if col1 in df.columns and col2 in df.columns:
-        df[out_col] = df[col1].combine_first(df[col2])
-    elif col1 in df.columns:
-        df[out_col] = df[col1]
-    elif col2 in df.columns:
-        df[out_col] = df[col2]
-    else:
-        df[out_col] = pd.NA
+if os.path.exists(JSON_PATH):
+    with open(JSON_PATH, "r", encoding="utf-8") as f:
+        matches = json.load(f)
+    json_df = pd.DataFrame(matches)
 
-def merge_datasets(csv_df: pd.DataFrame, json_df: pd.DataFrame) -> pd.DataFrame:
-    if "match_id" not in csv_df.columns:
-        csv_df["match_id"] = pd.NA
-    if "match_id" not in json_df.columns:
-        json_df["match_id"] = pd.NA
+    # Normalize winner
+    json_df["actual_winner"] = json_df.apply(
+        lambda row: row["radiant_team"] if row["actual_winner"] == "Radiant" else row["dire_team"],
+        axis=1
+    )
 
-    merged = pd.merge(csv_df, json_df, on="match_id", how="outer", suffixes=("", "_json"))
+    json_df = json_df[["match_id", "actual_winner", "team_a_heroes", "team_b_heroes"]]
 
-    combine_columns(merged, "team_a", "radiant_team", "team_a")
-    combine_columns(merged, "team_b", "dire_team", "team_b")
-    combine_columns(merged, "actual_winner", "actual_winner_json", "actual_winner")
-    combine_columns(merged, "timestamp", "start_time", "timestamp")
+# Merge if log not empty
+if not df_log.empty:
+    df_combined = df_log.copy()
 
-    result = merged[[
-        "timestamp", "match_id", "team_a", "team_b",
-        "team_a_heroes", "team_b_heroes", "actual_winner"
-    ]].dropna(subset=["match_id", "team_a", "team_b", "actual_winner"])
+    if not json_df.empty:
+        df_combined = df_combined.merge(json_df, on="match_id", how="left", suffixes=("", "_json"))
 
-    return result.sort_values("timestamp", ascending=False).reset_index(drop=True)
+        for col in ["actual_winner", "team_a_heroes", "team_b_heroes"]:
+            json_col = f"{col}_json"
+            if json_col in df_combined.columns:
+                df_combined[col] = df_combined[col].combine_first(df_combined[json_col])
+                df_combined.drop(columns=[json_col], inplace=True)
 
-def save_to_csv(df: pd.DataFrame, path: str):
-    df.to_csv(path, index=False)
-    print(f"✅ Объединённый файл сохранён в {path}")
+else:
+    df_combined = json_df.copy()
 
-def main():
-    print("📥 Загрузка CSV и JSON...")
-    csv_df = load_csv(CSV_PATH)
-    json_df = load_json(JSON_PATH)
-
-    print("🔄 Объединение данных...")
-    combined_df = merge_datasets(csv_df, json_df)
-
-    print("💾 Сохранение...")
-    save_to_csv(combined_df, OUTPUT_PATH)
-
-if __name__ == "__main__":
-    main()
+print("💾 Сохранение...")
+df_combined.to_csv(OUT_PATH, index=False, encoding="utf-8")
+print(f"✅ Объединённый файл сохранён в {OUT_PATH}")

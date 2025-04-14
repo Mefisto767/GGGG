@@ -1393,5 +1393,173 @@
       94
     ],
     "actual_winner": "Wild Dragon"
+  },
+  {
+    "timestamp": "2025-04-14 12:11:21",
+    "match_id": 8254506504,
+    "team_a": "Solid",
+    "team_b": "FaZe Clan",
+    "team_a_heroes": [
+      2,
+      5,
+      28,
+      46,
+      51
+    ],
+    "team_b_heroes": [
+      8,
+      23,
+      31,
+      97,
+      123
+    ],
+    "actual_winner": "FaZe Clan"
+  },
+  {
+    "timestamp": "2025-04-14 10:36:55",
+    "match_id": 8254418065,
+    "team_a": "Ghost Sheep",
+    "team_b": "Prodigy of God",
+    "team_a_heroes": [
+      19,
+      21,
+      38,
+      92,
+      136
+    ],
+    "team_b_heroes": [
+      33,
+      44,
+      53,
+      62,
+      75
+    ],
+    "actual_winner": "Prodigy of God"
+  },
+  {
+    "timestamp": "2025-04-14 10:14:54",
+    "match_id": 8254399968,
+    "team_a": "Eye Gaming ",
+    "team_b": "Teiko",
+    "team_a_heroes": [
+      7,
+      10,
+      40,
+      91,
+      136
+    ],
+    "team_b_heroes": [
+      16,
+      46,
+      69,
+      103,
+      112
+    ],
+    "actual_winner": "Eye Gaming "
+  },
+  {
+    "timestamp": "2025-04-14 12:44:40",
+    "match_id": 8254545420,
+    "team_a": "Shadow Avengers",
+    "team_b": "Foxy gaming",
+    "team_a_heroes": [
+      5,
+      42,
+      53,
+      74,
+      86
+    ],
+    "team_b_heroes": [
+      2,
+      11,
+      13,
+      22,
+      84
+    ],
+    "actual_winner": "Foxy gaming"
+  },
+  {
+    "timestamp": "2025-04-14 13:02:42",
+    "match_id": 8254568907,
+    "team_a": "Mine GG Soo BiGggggg！",
+    "team_b": "one two three",
+    "team_a_heroes": [
+      10,
+      27,
+      64,
+      94,
+      120
+    ],
+    "team_b_heroes": [
+      5,
+      35,
+      42,
+      63,
+      69
+    ],
+    "actual_winner": "Mine GG Soo BiGggggg！"
+  },
+  {
+    "timestamp": "2025-04-14 13:05:13",
+    "match_id": 8254571776,
+    "team_a": "BloodyRose",
+    "team_b": "Romashku",
+    "team_a_heroes": [
+      2,
+      54,
+      68,
+      120,
+      131
+    ],
+    "team_b_heroes": [
+      5,
+      7,
+      49,
+      60,
+      91
+    ],
+    "actual_winner": "BloodyRose"
+  },
+  {
+    "timestamp": "2025-04-14 13:01:12",
+    "match_id": 8254567739,
+    "team_a": "FaZe Clan",
+    "team_b": "Solid",
+    "team_a_heroes": [
+      19,
+      26,
+      40,
+      41,
+      76
+    ],
+    "team_b_heroes": [
+      39,
+      44,
+      63,
+      64,
+      97
+    ],
+    "actual_winner": "Solid"
+  },
+  {
+    "timestamp": "2025-04-14 13:20:51",
+    "match_id": 8254592372,
+    "team_a": "Teiko",
+    "team_b": "Elite Eclipse",
+    "team_a_heroes": [
+      23,
+      42,
+      52,
+      84,
+      109
+    ],
+    "team_b_heroes": [
+      18,
+      26,
+      60,
+      71,
+      74
+    ],
+    "actual_winner": "Elite Eclipse"
   }
 ]

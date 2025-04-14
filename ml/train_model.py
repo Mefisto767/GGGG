@@ -1,68 +1,87 @@
-# ml/train_model.py
-
 import os
 import pandas as pd
+import numpy as np
 import joblib
-import ast
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing import OneHotEncoder
+import ast
 
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CSV_PATH = os.path.join(PROJECT_ROOT, "data_collector", "combined_matches.csv")
-MODEL_PATH = os.path.join(PROJECT_ROOT, "ml", "model.pkl")
-ENCODER_PATH = os.path.join(PROJECT_ROOT, "ml", "label_encoder.pkl")
+CSV_PATH = os.path.join(PROJECT_ROOT, 'data_collector', 'combined_matches.csv')
+MODEL_PATH = os.path.join(PROJECT_ROOT, 'ml', 'model.pkl')
+ENCODER_PATH = os.path.join(PROJECT_ROOT, 'ml', 'onehot_encoder.pkl')
+FEATURES_PATH = os.path.join(PROJECT_ROOT, 'ml', 'feature_names.pkl')
 
-def safe_eval(value):
+def safe_eval(val):
     try:
-        return ast.literal_eval(value) if isinstance(value, str) else value
-    except Exception:
+        return ast.literal_eval(val) if isinstance(val, str) else val
+    except:
         return []
 
-def avg_power(heroes):
-    return sum(heroes) / len(heroes) if isinstance(heroes, list) and len(heroes) == 5 else 0
+def find_column(possible_names, df):
+    for name in possible_names:
+        if name in df.columns:
+            return name
+    return None
 
-def load_and_prepare_data():
+def load_and_prepare_data(path):
+    df = pd.read_csv(path)
+    df.columns = df.columns.str.strip()
+
+    df = df.dropna(subset=["actual_winner"])
+
+    team_a_col = find_column(["team_a", "team_a_x", "team_a_y"], df)
+    team_b_col = find_column(["team_b", "team_b_x", "team_b_y"], df)
+    heroes_a_col = find_column(["team_a_heroes", "team_a_heroes_x", "team_a_heroes_y"], df)
+    heroes_b_col = find_column(["team_b_heroes", "team_b_heroes_x", "team_b_heroes_y"], df)
+
+    print(f"🔎 team_a_col: {team_a_col}, team_b_col: {team_b_col}")
+    print(f"🔎 heroes_a_col: {heroes_a_col}, heroes_b_col: {heroes_b_col}")
+
+    if not all([team_a_col, team_b_col, heroes_a_col, heroes_b_col]):
+        raise ValueError("❌ Не найдены нужные колонки!")
+
+    df[heroes_a_col] = df[heroes_a_col].apply(safe_eval)
+    df[heroes_b_col] = df[heroes_b_col].apply(safe_eval)
+
+    df = df[df[team_a_col].notna() & df[team_b_col].notna()]
+    df = df[df["actual_winner"].isin(df[team_a_col]) | df["actual_winner"].isin(df[team_b_col])]
+    df = df[df[heroes_a_col].apply(lambda x: isinstance(x, list) and len(x) == 5)]
+    df = df[df[heroes_b_col].apply(lambda x: isinstance(x, list) and len(x) == 5)]
+
+    X = df[[team_a_col, team_b_col]]
+    y = df["actual_winner"]
+
+    encoder = OneHotEncoder(handle_unknown='ignore')
+    X_encoded = encoder.fit_transform(X)
+    feature_names = encoder.get_feature_names_out([team_a_col, team_b_col])
+
+    return X_encoded, y, encoder, feature_names, df, heroes_a_col, heroes_b_col
+
+def train_model(csv_path=None):
     print("📦 Загрузка и подготовка данных...")
-    df = pd.read_csv(CSV_PATH)
+    csv_path = csv_path or CSV_PATH
 
-    df["team_a_heroes"] = df["team_a_heroes"].apply(safe_eval)
-    df["team_b_heroes"] = df["team_b_heroes"].apply(safe_eval)
+    X, y, encoder, feature_names, df, heroes_a_col, heroes_b_col = load_and_prepare_data(csv_path)
 
-    df = df[
-        df["team_a_heroes"].apply(lambda x: isinstance(x, list) and len(x) == 5) &
-        df["team_b_heroes"].apply(lambda x: isinstance(x, list) and len(x) == 5)
-    ]
+    if X.shape[0] == 0 or len(y) == 0:
+        print("❌ Недостаточно данных для обучения.")
+        return
 
-    df["team_a_power"] = df["team_a_heroes"].apply(avg_power)
-    df["team_b_power"] = df["team_b_heroes"].apply(avg_power)
-
-    df.dropna(subset=["actual_winner"], inplace=True)
-
-    encoder = LabelEncoder()
-    df["label"] = encoder.fit_transform(df["actual_winner"])
-
-    X = df[["team_a_power", "team_b_power"]]
-    y = df["label"]
-
-    return X, y, encoder, df
-
-def train_model():
-    X, y, encoder, df = load_and_prepare_data()
-
+    print(f"📊 Обучение на {X.shape[0]} матчах.")
     model = RandomForestClassifier(n_estimators=100, random_state=42)
     model.fit(X, y)
 
     joblib.dump(model, MODEL_PATH)
     joblib.dump(encoder, ENCODER_PATH)
+    joblib.dump(list(feature_names), FEATURES_PATH)
 
-    print("✅ Модель обучена и сохранена:", MODEL_PATH)
-
-    print("\n📊 Статистика обучения:")
+    print(f"✅ Модель обучена и сохранена: {MODEL_PATH}")
     print(f"Всего матчей в обучении: {len(df)}")
-    print(f"Команд-победителей: {df['actual_winner'].nunique()}")
-    print(f"Мин. уверенность (на обучении): {model.predict_proba(X).max(axis=1).min():.2f}")
-    print(f"Средняя мощь команд: A={df['team_a_power'].mean():.1f}, B={df['team_b_power'].mean():.1f}")
+    print(f"Команд-победителей: {sum(y == df.iloc[:, df.columns.get_loc('actual_winner')])}")
+    print(f"Мин. уверенность: {np.min(model.predict_proba(X).max(axis=1)):.2f}")
+    print(f"Средняя мощь: A={df[heroes_a_col].apply(lambda x: np.mean(x)).mean():.1f}, "
+          f"B={df[heroes_b_col].apply(lambda x: np.mean(x)).mean():.1f}")
 
 if __name__ == "__main__":
     train_model()

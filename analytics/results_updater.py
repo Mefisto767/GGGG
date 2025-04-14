@@ -13,14 +13,12 @@ def get_actual_winner(match_id):
         dire_name = data.get("dire_name", "Dire")
 
         return radiant_name if radiant_win else dire_name
-
     except Exception as e:
         print(f"[Ошибка получения результата матча {match_id}]: {e}")
         return None
 
 def update_match_log():
     path = os.path.join(os.path.dirname(__file__), "../logs/match_log.csv")
-
     if not os.path.exists(path):
         print("❌ Файл match_log.csv не найден.")
         return
@@ -30,22 +28,21 @@ def update_match_log():
         reader = csv.DictReader(f)
         rows = list(reader)
 
-        for row in rows:
-            if row.get("actual_winner") and row["actual_winner"].strip():
-                updated_rows.append(row)
-                continue
-
-            match_id = row["match_id"]
-            actual_winner = get_actual_winner(match_id)
-            if actual_winner:
-                print(f"✅ Получен победитель для матча {match_id}: {actual_winner}")
-                row["actual_winner"] = actual_winner
-            else:
-                print(f"⚠️ Не удалось получить результат для матча {match_id}")
-
+    for row in rows:
+        if row.get("actual_winner") and row["actual_winner"].strip():
             updated_rows.append(row)
+            continue
 
-    # Перезаписываем файл с обновлёнными строками
+        match_id = row["match_id"]
+        actual_winner = get_actual_winner(match_id)
+        if actual_winner:
+            print(f"✅ Получен победитель для матча {match_id}: {actual_winner}")
+            row["actual_winner"] = actual_winner
+        else:
+            print(f"⚠️ Не удалось получить результат для матча {match_id}")
+
+        updated_rows.append(row)
+
     with open(path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=rows[0].keys())
         writer.writeheader()

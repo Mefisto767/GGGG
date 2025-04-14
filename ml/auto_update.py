@@ -8,31 +8,39 @@ sys.path.append(PROJECT_ROOT)
 
 from analytics.predictor import make_predictions
 from ml.tools.rebuild_csv_from_json import rebuild_from_json
+from ml.train_model import train_model
 
 LOG_PATH = os.path.join(PROJECT_ROOT, 'logs', 'match_log.csv')
 NEW_CSV_PATH = os.path.join(PROJECT_ROOT, 'logs', 'new_matches.csv')
-
-def train_model():
-    from ml.train_model import train_model
-    train_model()
+COMBINED_PATH = os.path.join(PROJECT_ROOT, 'data_collector', 'combined_matches.csv')
 
 def update_logs():
     if not os.path.exists(NEW_CSV_PATH):
         print("❌ Нет новых матчей для обновления.")
         return
 
-    existing = pd.read_csv(LOG_PATH)
     new_data = pd.read_csv(NEW_CSV_PATH)
+    if os.path.exists(LOG_PATH):
+        existing = pd.read_csv(LOG_PATH)
 
-    combined = pd.concat([existing, new_data])
-    combined = combined.drop_duplicates(subset=['team_a', 'team_b', 'actual_winner'], keep='first')
+        # 👇 Объединяем все столбцы, даже если у кого-то не хватает
+        all_columns = sorted(set(existing.columns).union(set(new_data.columns)))
+        existing = existing.reindex(columns=all_columns)
+        new_data = new_data.reindex(columns=all_columns)
+
+        combined = pd.concat([existing, new_data], ignore_index=True)
+    else:
+        combined = new_data.copy()
+
+    combined = combined.drop_duplicates(subset=['match_id'], keep='first')
     combined.to_csv(LOG_PATH, index=False)
 
-    added = max(0, len(combined) - len(existing))
+    added = len(new_data)
     print(f"✅ Добавлено {added} новых матчей в match_log.csv")
 
     os.remove(NEW_CSV_PATH)
-    train_model()
+    print("🚀 Запускаем повторное обучение...")
+    train_model(csv_path=COMBINED_PATH)
     print("✅ Модель переобучена.")
 
 def show_stats():

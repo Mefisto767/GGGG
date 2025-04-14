@@ -4,24 +4,23 @@ import pandas as pd
 from sklearn.preprocessing import OneHotEncoder
 
 JSON_PATH = os.path.join(os.path.dirname(__file__), "..", "data_collector", "matches.json")
-CSV_PATH = os.path.join(os.path.dirname(__file__), "..", "data_collector", "match_log.csv")
+CSV_PATH = os.path.join(os.path.dirname(__file__), "..", "data_collector", "combined_matches.csv")
 
 def load_and_prepare_data():
-    with open(JSON_PATH, "r", encoding="utf-8") as f:
-        matches = json.load(f)
+    df = pd.read_csv(CSV_PATH)
 
-    df = pd.DataFrame(matches)
+    df["team_a_heroes"] = df["team_a_heroes"].apply(lambda x: eval(x) if isinstance(x, str) else [])
+    df["team_b_heroes"] = df["team_b_heroes"].apply(lambda x: eval(x) if isinstance(x, str) else [])
 
-    df = df[df["team_a_heroes"].apply(lambda x: isinstance(x, list) and len(x) == 5)]
-    df = df[df["team_b_heroes"].apply(lambda x: isinstance(x, list) and len(x) == 5)]
-    df = df[df["winner"].isin(["team_a", "team_b"])]
+    df = df[
+        df["team_a_heroes"].apply(lambda x: isinstance(x, list) and len(x) == 5) &
+        df["team_b_heroes"].apply(lambda x: isinstance(x, list) and len(x) == 5)
+    ]
 
-    df["label"] = df["winner"].map({"team_a": 0, "team_b": 1})
+    df = df.dropna(subset=["actual_winner"])
+    df["label"] = df.apply(lambda row: 0 if row["actual_winner"] == row["team_a"] else 1, axis=1)
 
     X_raw = df[["team_a", "team_b", "team_a_heroes", "team_b_heroes"]].copy()
-    X_raw["team_a_heroes"] = X_raw["team_a_heroes"].apply(lambda x: x if isinstance(x, list) else [])
-    X_raw["team_b_heroes"] = X_raw["team_b_heroes"].apply(lambda x: x if isinstance(x, list) else [])
-
     X_features = X_raw.apply(lambda row: [
         row["team_a"],
         row["team_b"],

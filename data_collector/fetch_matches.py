@@ -5,6 +5,7 @@ from datetime import datetime
 
 OPEN_DOTA_API_URL = "https://api.opendota.com/api/proMatches"
 MATCH_DETAILS_URL = "https://api.opendota.com/api/matches/"
+
 DATA_DIR = os.path.dirname(__file__)
 OUT_PATH = os.path.join(DATA_DIR, "matches.json")
 MAX_MATCHES = 1000
@@ -67,8 +68,8 @@ def save_matches(matches):
 def update_matches():
     all_matches = load_existing_matches()
     known_ids = {m["match_id"] for m in all_matches}
-
     new_matches = []
+
     print("🔍 Получаю список матчей...")
     for match_summary in fetch_pro_matches():
         match_id = match_summary["match_id"]

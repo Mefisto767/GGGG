@@ -4,7 +4,7 @@ from analytics.form_checker import get_player_form
 from analytics.value_checker import evaluate_value
 from analytics.logger import log_match_result
 
-def main():
+def main() -> None:
     match = get_latest_match()
     form = get_player_form(match)
     result = evaluate_draft(match, form)
@@ -17,7 +17,6 @@ def main():
     print(f"💸 Ставка: {'✅ Value есть!' if value['value'] else '❌ Value нет'}")
     print(f"📈 Комментарий: {value['comment']}")
 
-    # Логирование в файл
     log_match_result(match, result, value["value"])
     print("📝 Матч записан в журнал.")
 
